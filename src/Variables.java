@@ -13,6 +13,6 @@ public class Variables {
         int b = in.nextInt();
         System.out.print("Input variable c: ");
         int c = in.nextInt();
-        System.out.println("The values of c, b and a are: " + c + b + a);
+        System.out.println("The opposite of abc is: " + c + b + a);
     }
 }
