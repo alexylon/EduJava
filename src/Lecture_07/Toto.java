@@ -21,7 +21,7 @@ public class Toto {
 
             // Prints input
             for (int i = 0; i < input.length; i++) {
-                System.out.print(input[i] + " ");
+                System.out.printf("%4d", input[i]);
             }
 
             System.out.println();
@@ -29,7 +29,7 @@ public class Toto {
             Random random = new Random();
             int[] toto = new int[6];
 
-            System.out.print("Toto (6 of 49): ");
+            System.out.print("Toto (6 of 49):");
 
             // Calculates random numbers
             int i = 0;
@@ -43,7 +43,7 @@ public class Toto {
                         toto[i] = random.nextInt(49);
                     }
                 }
-                System.out.print(toto[i] + " ");
+                System.out.printf("%4d", toto[i]);
 
                 i++;
                 if (i > (toto.length - 1)) {
@@ -61,7 +61,7 @@ public class Toto {
                 }
             }
 
-            System.out.println("\n \nYou win " + win + " points"); // Prints the result
+            System.out.println("\n \nYou win << " + win + " >> points"); // Prints the result
 
             // Check for another game
             System.out.print("\nDo you want another game (y/n): ");
