@@ -2,10 +2,10 @@ package Lecture_08;
 
 public class Book {
 
-    int id;
-    String name;
-    String author;
-    double price;
+    private int id;
+    private String name;
+    private String author;
+    private double price;
 
 
     public Book(int i, String n, String a, double p) {
@@ -25,7 +25,9 @@ public class Book {
 
     @Override
     public String toString() {
-        return "The name of the book is: " + this.name;
+        return "The name of the book is: " + this.name +
+                "\nThe author is: " + this.author +
+                "\nPrice: $" + this.price + "\n";
     }
 
     public static void main(String[] args) {
