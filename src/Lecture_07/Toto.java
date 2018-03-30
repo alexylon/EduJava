@@ -63,7 +63,7 @@ public class Toto {
 
             System.out.println("\n \nYou win << " + win + " >> points"); // Prints the result
 
-            // Check for another game
+            // my.Check for another game
             System.out.print("\nDo you want another game (y/n): ");
             char again = scanner.next().charAt(0);
             System.out.println();
