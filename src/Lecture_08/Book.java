@@ -1,5 +1,7 @@
 package Lecture_08;
 
+import java.util.Scanner;
+
 public class Book {
 
     private int id;
@@ -33,7 +35,26 @@ public class Book {
     public static void main(String[] args) {
         Book book1 = new Book(1, "Java 1", "James Mwangi", 5.3);
         Book book2 = new Book(2, "Angular 5", "Bob Slay", 4.1);
-        System.out.println(book1);
-        System.out.println(book2);
+
+        Scanner scanner = new Scanner(System.in);
+
+        while (true) {
+            System.out.print("Enter book ID: ");
+            int id = scanner.nextInt();
+
+            if (id == book1.id) {
+                System.out.println(book1);
+                return;
+            }
+
+            if (id == book2.id) {
+                System.out.println(book2);
+                return;
+
+            } else {
+                System.out.println("There is no such ID\n");
+            }
+        }
+
     }
 }
