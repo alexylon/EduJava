@@ -45,10 +45,14 @@ public class Employee {
     }
 
     public static void main(String[] args) {
-        Company company1 = new Company("KAME", 831319228, "Vladimir Karamfilov", "Bansko shose 23");
-        Company company2 = new Company("Institut", 638623906, "Proff. Kantardzhiev", "Park Zaimov");
-        Employee employee1 = new Employee("Alexander Alexandrov", company1, 4021, "Product Manager", 1600, "Full-time");
-        Employee employee2 = new Employee("Ekaterina Alexandrova", company2, 4452, "Microbiologist", 600, "Full-time");
+        Company company1 = new Company("KAME", 831319228,
+                "Vladimir Karamfilov", "Bansko shose 23");
+        Company company2 = new Company("Institut", 638623906,
+                "Proff. Kantardzhiev", "Park Zaimov");
+        Employee employee1 = new Employee("Alexander Alexandrov",
+                company1, 4021, "Product Manager", 1600, "Full-time");
+        Employee employee2 = new Employee("Ekaterina Alexandrova",
+                company2, 4452, "Microbiologist", 600, "Full-time");
         System.out.println(employee1);
         System.out.println(employee2);
     }
