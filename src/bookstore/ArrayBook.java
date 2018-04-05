@@ -2,6 +2,9 @@ package bookstore;
 
 public class ArrayBook {
 
+    private int[] elementData;
+    private int size;
+
 
     public void add(Book b) {
         Book[] books = new Book[10];
