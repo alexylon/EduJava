@@ -38,6 +38,5 @@ public class ShapeTest {
         System.out.println(Arrays.toString(shapes));
         Arrays.sort(shapes);
         System.out.println(Arrays.toString(shapes));
-
     }
 }
