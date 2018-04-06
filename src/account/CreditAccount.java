@@ -2,12 +2,12 @@ package account;
 
 public class CreditAccount implements AccountSpecification {
 
-    double balance;
+    private double balance;
 
     @Override
     public boolean withdraw(double amount) {
-        if (balance >= amount * 1.03) {
-            balance = balance - amount * 1.03;
+        if (this.balance >= amount * 1.03) {
+            this.balance = this.balance - amount * 1.03;
 
             return true;
         } else
@@ -19,12 +19,12 @@ public class CreditAccount implements AccountSpecification {
 
     @Override
     public void deposit(double amount) {
-        balance = balance + amount;
+        this.balance = this.balance + amount;
 
     }
 
     @Override
     public double getBalance() {
-        return balance;
+        return this.balance;
     }
 }

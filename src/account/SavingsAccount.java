@@ -2,7 +2,7 @@ package account;
 
 public class SavingsAccount implements AccountSpecification {
 
-    double balance;
+    private double balance;
     private AccountType accountType = AccountType.SAVINGS;
 
     @Override

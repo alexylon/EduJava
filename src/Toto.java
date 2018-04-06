@@ -65,6 +65,28 @@ public class Toto {
 
             System.out.println("\n \nYou win << " + win + " >> points"); // Prints the result
 
+            if (win == 0) {
+                System.out.println(":-(");
+            }
+            if (win == 1) {
+                System.out.println(":-|");
+            }
+            if (win == 2) {
+                System.out.println(":-)");
+            }
+            if (win == 3) {
+                System.out.println(":-))");
+            }
+            if (win == 4) {
+                System.out.println(":-)))");
+            }
+            if (win == 5) {
+                System.out.println(":-))))");
+            }
+            if (win == 6) {
+                System.out.println("******** :-)))))) ********");
+            }
+
             // my.Check for another game
             System.out.print("\nDo you want another game ('n' for no): ");
             char again = scanner.next().charAt(0);

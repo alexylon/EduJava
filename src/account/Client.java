@@ -16,20 +16,16 @@ public class Client {
         creditAccount.deposit(creditMoney);
     }
 
-    public double getBalanceCredit() {
-        return this.creditAccount.getBalance();
-    }
-
     public boolean withdrawCredit(double amount) {
         return this.creditAccount.withdraw(amount);
     }
 
-    public double getBalanceSavings() {
-        return this.savingsAccount.getBalance();
+    public void depositCredit(double amount) {
+        this.creditAccount.deposit(amount);
     }
 
-    public void depositCredit(double amount) {
-        this.creditAccount.withdraw(amount);
+    public double getBalanceCredit() {
+        return this.creditAccount.getBalance();
     }
 
     public boolean withdrawSavings(double amount) {
@@ -38,6 +34,10 @@ public class Client {
 
     public void depositSavings(double amount) {
         this.savingsAccount.deposit(amount);
+    }
+
+    public double getBalanceSavings() {
+        return this.savingsAccount.getBalance();
     }
 
 
@@ -50,6 +50,7 @@ public class Client {
         }
         return false;
     }
+
 
     public String getName() {
         return name;

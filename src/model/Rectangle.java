@@ -4,8 +4,8 @@ import java.util.Scanner;
 
 public class Rectangle {
 
-    Double a;
-    Double b;
+    private Double a;
+    private Double b;
 
     public Rectangle(Double a, Double b) {
         this.a = a;
