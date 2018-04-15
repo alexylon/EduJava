@@ -22,7 +22,9 @@ public class DiscountCardTest {
         visit1.setServiceExpense(10.0);
         visit1.setProductExpense(20.0);
         visit2.setServiceExpense(10.0);
+        visit2.setProductExpense(20.0);
         visit3.setServiceExpense(10.0);
+        visit3.setProductExpense(20.0);
 
         Visit[] visits = new Visit[3];
         visits[0] = visit1;

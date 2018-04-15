@@ -27,11 +27,11 @@ public class DiscountRate {
     }
 
     public static double getProductDiscountRate(String type) {
-        if (type.equals("premium"))
+        if (type == "premium")
             return productDiscountPremium;
-        if (type.equals("gold"))
+        if (type == "gold")
             return productDiscountGold;
-        if (type.equals("silver"))
+        if (type == "silver")
             return productDiscountSilver;
         return 0.0d;
     }

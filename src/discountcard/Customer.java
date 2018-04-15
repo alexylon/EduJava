@@ -30,10 +30,7 @@ public class Customer {
     }
 
     public void setMember(boolean member) {
-        if (memberType.equals("premium")
-                || memberType.equals("gold") || memberType.equals("silver"))
-            this.member = true;
-        this.member = false;
+
     }
 
     public String getMemberType() {
