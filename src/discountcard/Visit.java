@@ -58,7 +58,7 @@ public class Visit {
         return this.customer.getName() + " is "
                 + memberType()
                 + " and has service expenses $"
-                + serviceExpense + " and product expenses $" + productExpense
+                + serviceExpense + " and product expense $" + productExpense
                 + " (total $" + getTotalExpense() + ")"
                 + " at " + date;
     }
