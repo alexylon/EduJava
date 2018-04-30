@@ -6,12 +6,21 @@ public class Book {
     int isbn;
     Author author;
 
+
     public Book(String bookName, int isbn, Author author) {
         this.bookName = bookName;
         this.isbn = isbn;
         this.author = author;
     }
 
+
+    public String getAuthorName() {
+        return this.author.getAuthorName();
+    }
+
+    public String getAuthorCountry() {
+        return this.author.getAuthorCountry();
+    }
 
     public String getBookName() {
         return bookName;

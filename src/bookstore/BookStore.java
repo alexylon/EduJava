@@ -23,7 +23,6 @@ public class BookStore {
 
 
 
-
     public String getStoreName() {
         return storeName;
     }

@@ -21,6 +21,7 @@ public class BookStoreTest {
         Book book4 = new Book("Bandwidth",
                 author4, "1503954420", 1);
 
+
         System.out.println(bookStore);
         System.out.println();
         System.out.println(book1);
