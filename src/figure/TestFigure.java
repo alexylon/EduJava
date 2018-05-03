@@ -1,8 +1,6 @@
 package figure;
 
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.List;
+import java.util.*;
 
 public class TestFigure {
 
@@ -26,6 +24,14 @@ public class TestFigure {
         for (Figure f : figures) {
             System.out.println(f);
         }
+
+        Set<Figure> figuresTree = new TreeSet<>(new PerimeterComparator());
+        figuresTree.addAll(figures);
+        System.out.println(figuresTree);
+
+        Queue<Figure> figuresQueue = new PriorityQueue<>(new PerimeterComparator());
+        figuresQueue.addAll(figures);
+        System.out.println(figuresQueue);
 
 
     }
