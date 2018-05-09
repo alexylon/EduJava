@@ -62,6 +62,7 @@ public class Toto29 {
             }
 
             System.out.println("\n \nYou win << " + win + " >> points"); // Prints the result
+            // Can be made with switch
             if (win == 0) {
                 System.out.println(":-(");
             }
