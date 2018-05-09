@@ -23,8 +23,12 @@ public class ExceptionTest {
 
     }
 
-    public static void main(String[] args) throws ArithmeticException {
-        div1(5, 0);
+    public static void main(String[] args) {
+        try {
+            div1(5, 0);
+        } catch (ArithmeticException e) {
+            e.printStackTrace();
+        }
         div1(15, 3);
         div2(5, 0);
         div2(15, 3);
