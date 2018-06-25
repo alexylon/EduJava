@@ -1,34 +1,28 @@
-package me.alexandroff.misc.book;
+package me.alexandroff.oca.gupta.book;
 
 public class Book {
 
     private int isbn;
     private String bookName;
     private String authorName;
-    public static int count = 0;
+
+    public Book() {
+        this(1234, "The Gulf", "Jack E. Davis");
+
+        //Book(1234, "The Gulf", "Jack E. Davis"); - A constructor cannot be invoked by the class name.
+    }
 
     public Book(int isbn, String bookName, String authorName) {
         this.isbn = isbn;
         this.bookName = bookName;
         this.authorName = authorName;
-
-        count++;
-
-        System.out.println("Created object: " + count);
-
-        System.out.println("Constructor: ");
-        System.out.println(this);
     }
 
-    {
-        System.out.println("Initializer block: ");
-        System.out.println(this);
-        System.out.println();
-    }
+   /* public Book Book2() {
+        Book book2 = this(5678, "Nine Continents", "Xiaolu Guo");
+        return book2;
+    } */ //won't compile
 
-    public void printBook() {
-        System.out.println(this);
-    }
 
     public String toString() {
         return "Book Title: " + bookName + "\nAuthor: "
