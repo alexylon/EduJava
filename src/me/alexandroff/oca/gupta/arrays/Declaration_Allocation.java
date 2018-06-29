@@ -1,6 +1,6 @@
 package me.alexandroff.oca.gupta.arrays;
 
-public class Declaration_Allocation_Initialization {
+public class Declaration_Allocation {
 
     public static void main(String[] args) {
 
