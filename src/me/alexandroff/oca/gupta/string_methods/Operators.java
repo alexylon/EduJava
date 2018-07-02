@@ -1,6 +1,6 @@
 package me.alexandroff.oca.gupta.string_methods;
 
-public class Operators_Test {
+public class Operators {
 
     public static void main(String[] args) {
 

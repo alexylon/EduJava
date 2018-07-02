@@ -1,6 +1,6 @@
 package me.alexandroff.oca.gupta.string_methods;
 
-public class Length_Test {
+public class Length {
 
     public static void main(String[] args) {
 

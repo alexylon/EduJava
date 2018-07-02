@@ -1,6 +1,6 @@
 package me.alexandroff.oca.gupta.string_methods;
 
-public class Concat_Test {
+public class Concat {
 
     public static void main(String[] args) {
 

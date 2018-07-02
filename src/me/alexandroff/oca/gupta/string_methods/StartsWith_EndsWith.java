@@ -1,6 +1,6 @@
 package me.alexandroff.oca.gupta.string_methods;
 
-public class StartsWith_EndsWith_Test {
+public class StartsWith_EndsWith {
 
     public static void main(String[] args) {
 

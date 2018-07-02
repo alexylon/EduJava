@@ -1,6 +1,6 @@
 package me.alexandroff.oca.gupta.string_methods;
 
-public class Substring_Test {
+public class Substring {
 
     public static void main(String[] args) {
 

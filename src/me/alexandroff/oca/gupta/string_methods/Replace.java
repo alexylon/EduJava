@@ -1,6 +1,6 @@
 package me.alexandroff.oca.gupta.string_methods;
 
-public class Replace_Test {
+public class Replace {
 
     public static void main(String[] args) {
 

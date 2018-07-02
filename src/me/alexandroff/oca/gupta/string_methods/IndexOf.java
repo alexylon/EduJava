@@ -1,6 +1,6 @@
 package me.alexandroff.oca.gupta.string_methods;
 
-public class IndexOf_Test {
+public class IndexOf {
 
     public static void main(String[] args) {
 

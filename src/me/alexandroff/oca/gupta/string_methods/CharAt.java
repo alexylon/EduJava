@@ -1,6 +1,6 @@
 package me.alexandroff.oca.gupta.string_methods;
 
-public class CharAt_Test {
+public class CharAt {
 
     public static void main(String... aaa) {
 
