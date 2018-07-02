@@ -1,6 +1,7 @@
 package me.alexandroff.misc;
 
 public class Test {
+    
 
     public static void main(String[] args) {
         int a = 2;
@@ -9,6 +10,9 @@ public class Test {
         System.out.println(a & b);
         System.out.println(a | b);
         System.out.println(a * b);
+        
+        System.out.println("Hello World");
+        
 
         int coco;
         String word;

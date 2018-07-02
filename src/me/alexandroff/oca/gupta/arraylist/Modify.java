@@ -7,7 +7,6 @@ public class Modify {
     public static void main(String[] args) {
 
         ArrayList<String> list1 = new ArrayList<>();
-
         list1.add("Zero");
         list1.add("One");
         list1.add("Two");
@@ -20,8 +19,9 @@ public class Modify {
         list2.add(new StringBuilder("Zero"));
         list2.add(new StringBuilder("One"));
         list2.add(new StringBuilder("Two"));
+        list2.add(new StringBuilder("Fourteen"));
         for (StringBuilder element : list2) {
-            element.append(" " + element.length());
+            element.append(": " + element.length() + " letters");
         }
         for (StringBuilder element : list2) {
             System.out.println(element);
