@@ -1,11 +1,11 @@
-package me.alexandroff.oca.gupta;
+package me.alexandroff.oca.gupta.equals;
 
 public class Test {
 
-    int n;
+    int int1;
 
-    public Test(int n) {
-        this.n = n;
+    public Test(int int1) {
+        this.int1 = int1;
     }
 
     public static void main(String[] args) {
@@ -19,18 +19,17 @@ public class Test {
 
         {
             System.out.println("test1 and test2 are true in .equals()");
-        }
-        else {
+        } else {
             System.out.println("test1 and test2 are false in .equals()");
         }
     }
 
     // Override .equals method.
-    /*public boolean equals(Object object) {
-        if(object instanceof Test && ((Test)object).getValue() == this.n) {
+    public boolean equals(Object object) {
+        if (object instanceof Test && ((Test) object).int1 == this.int1) {
             return true;
         } else {
             return false;
         }
-    } */
+    }
 }
