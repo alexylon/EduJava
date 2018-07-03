@@ -35,13 +35,13 @@ public class Local_Date {
         System.out.println("katiaBirthday.isBefore(myBirthday) : " + katiaBirthday.isBefore(myBirthday));
         System.out.println();
 
-        System.out.println("dateNow.minusDays(10) : " + dateNow.minusDays(10));
+        System.out.println("dateNow.minusDays(10)  : " + dateNow.minusDays(10));
         System.out.println("dateNow.minusMonths(2) : " + dateNow.minusMonths(2));
         System.out.println("dateNow.minusWeeks(30) : " + dateNow.minusWeeks(30));
-        System.out.println("dateNow.minusYears(1) : " + dateNow.minusYears(1));
-        System.out.println("dateNow.plusDays(10) : " + dateNow.plusDays(10));
-        System.out.println("dateNow.plusMonths(2) : " + dateNow.plusMonths(2));
-        System.out.println("dateNow.plusWeeks(30) : " + dateNow.plusWeeks(30));
-        System.out.println("dateNow.plusYears(1) : " + dateNow.plusYears(1));
+        System.out.println("dateNow.minusYears(1)  : " + dateNow.minusYears(1));
+        System.out.println("dateNow.plusDays(10)   : " + dateNow.plusDays(10));
+        System.out.println("dateNow.plusMonths(2)  : " + dateNow.plusMonths(2));
+        System.out.println("dateNow.plusWeeks(30)  : " + dateNow.plusWeeks(30));
+        System.out.println("dateNow.plusYears(1)   : " + dateNow.plusYears(1));
     }
 }
