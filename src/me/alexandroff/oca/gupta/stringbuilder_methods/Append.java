@@ -1,6 +1,6 @@
 package me.alexandroff.oca.gupta.stringbuilder_methods;
 
-public class Append_Test {
+public class Append {
 
     public static void main (String[] args) {
 

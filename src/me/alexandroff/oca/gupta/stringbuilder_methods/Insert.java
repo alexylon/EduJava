@@ -1,6 +1,6 @@
 package me.alexandroff.oca.gupta.stringbuilder_methods;
 
-public class Insert_Test {
+public class Insert {
 
     public static void main(String[] args) {
 

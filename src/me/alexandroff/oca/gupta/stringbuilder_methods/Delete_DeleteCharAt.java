@@ -1,6 +1,6 @@
 package me.alexandroff.oca.gupta.stringbuilder_methods;
 
-public class Delete_DeleteCharAt_Test {
+public class Delete_DeleteCharAt {
 
     public static void main(String[] args) {
 
