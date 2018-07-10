@@ -2,7 +2,7 @@ package me.alexandroff.oca.gupta.calendar;
 
 import java.time.LocalTime;
 
-public class Manipulate_Local_Time {
+public class Manipulate_LocalTime {
 
     public static void main(String[] args) {
 

@@ -42,5 +42,10 @@ public class Period_Test {
                 + koseAge.getMonths() + " months and " + koseAge.getDays()
                 + " days" + " old");
         System.out.println();
+
+        Period days5 = Period.of(0,0,5);
+        System.out.println(days5.isZero());
+        Period daysMinus5 = Period.of(0,0,-5);
+        System.out.println(daysMinus5.isNegative());
     }
 }
