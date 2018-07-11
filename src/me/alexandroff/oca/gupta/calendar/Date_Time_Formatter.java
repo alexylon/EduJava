@@ -47,9 +47,10 @@ public class Date_Time_Formatter {
         System.out.println();
 
         //LocalDate dateToday = LocalDate.parse("2018-07-10", formatter6);
-        //System.out.println(dateToday);
+        //System.out.println(dateToday); - Throws Exception
 
-        // Beware of the following
+        // Beware of the following.
+        // This code is NOT for formatting the output but the input
         DateTimeFormatter d1 = DateTimeFormatter.ofPattern("yyyy-MM-dd");
         LocalDate date1 = LocalDate.parse("2057-01-29", d1);
         System.out.println(date1);
