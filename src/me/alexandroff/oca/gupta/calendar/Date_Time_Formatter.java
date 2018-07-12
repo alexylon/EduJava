@@ -1,7 +1,5 @@
 package me.alexandroff.oca.gupta.calendar;
 
-import com.sun.scenario.effect.impl.sw.sse.SSEBlend_SRC_OUTPeer;
-
 import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.time.LocalTime;
@@ -23,7 +21,7 @@ public class Date_Time_Formatter {
                         FormatStyle.SHORT);
         DateTimeFormatter formatter5 = DateTimeFormatter.ISO_DATE;
         DateTimeFormatter formatter6 = DateTimeFormatter.ofPattern("dd.MM.yyyy"); // "d" or "dd" for the day of month
-        DateTimeFormatter formatter7 = DateTimeFormatter.ofPattern("D.MM.yy"); // "D" for the day of year
+        DateTimeFormatter formatter7 = DateTimeFormatter.ofPattern("'Days of year: 'D.MM.yy"); // "D" for the day of year
         DateTimeFormatter formatter8 = DateTimeFormatter.ofPattern("HH:mm");
         DateTimeFormatter formatter9 = DateTimeFormatter.ofPattern("hh:mm a");
         DateTimeFormatter formatter10 = DateTimeFormatter.ofPattern("HH:mm, dd.MM.yy");

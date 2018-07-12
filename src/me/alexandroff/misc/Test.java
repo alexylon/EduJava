@@ -12,6 +12,7 @@ public class Test {
         System.out.println(a * b);
         
         System.out.println("Hello World");
+        System.out.println("Hello CodeRunner");
         
 
         int coco;
