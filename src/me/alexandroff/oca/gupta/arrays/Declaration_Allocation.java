@@ -27,6 +27,7 @@ public class Declaration_Allocation {
         // double[] doubleArray1 = new double[5.2]; Won't compile. Size can be only "int"
         int[] intArray10 = new int[2 * 5]; // OK!!!
         int[] multiArray5[] = new int[5][10]; // !!! 2D array;
-
+        int[][] array2 = new int[][] {{1, 2, 3}, {}, {1, 2,3, 4, 5}}; // !!! OK
+        int[][] array3 = {{1, 2, 3}, {}, {1, 2,3, 4, 5}};
     }
 }

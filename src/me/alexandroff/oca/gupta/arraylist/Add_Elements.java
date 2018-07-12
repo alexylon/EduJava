@@ -17,6 +17,10 @@ public class Add_Elements {
 
         list1.add(3, "Three"); // Adds an element at pos.3
         System.out.println(list1);
+
+        ArrayList<Long> lst = new ArrayList<>();
+        // lst.add(10); - Won't compile. Cannot add "int" to object type "Long"
+        lst.add(10L); // OK
     }
 
     ArrayList list2 = new ArrayList(2);

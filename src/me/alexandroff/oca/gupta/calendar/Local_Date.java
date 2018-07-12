@@ -1,6 +1,7 @@
 package me.alexandroff.oca.gupta.calendar;
 
 import java.time.LocalDate;
+import java.time.format.DateTimeFormatter;
 
 public class Local_Date {
 
@@ -43,5 +44,10 @@ public class Local_Date {
         System.out.println("dateNow.plusMonths(2)  : " + dateNow.plusMonths(2));
         System.out.println("dateNow.plusWeeks(30)  : " + dateNow.plusWeeks(30));
         System.out.println("dateNow.plusYears(1)   : " + dateNow.plusYears(1));
+        System.out.println();
+
+        String stringDate = LocalDate.parse("2057-08-11")
+                .format(DateTimeFormatter.ISO_DATE); // MUST be a "String"
+        System.out.println(stringDate);
     }
 }

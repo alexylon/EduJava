@@ -31,7 +31,9 @@ public class Date_Time_Formatter {
         LocalDate myBD = LocalDate.of(1972, 5, 4);
         System.out.println(myBD);
         System.out.println(formatter1.format(myBD));
+        String date1 = formatter1.format(myBD); // !!! MUST be a "String"
         System.out.println(myBD.format(formatter5)); // Can be reversed - see upper line
+        String date2 = myBD.format(formatter5); // !!! MUST be a "String"
         System.out.println(formatter6.format(myBD));
         System.out.println(formatter7.format(myBD));
         System.out.println();
