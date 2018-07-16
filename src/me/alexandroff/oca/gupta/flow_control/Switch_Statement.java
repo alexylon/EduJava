@@ -1,6 +1,6 @@
 package me.alexandroff.oca.gupta.flow_control;
 
-public class Switch_Test {
+public class Switch_Statement {
 
     public static void main(String[] args) {
 
