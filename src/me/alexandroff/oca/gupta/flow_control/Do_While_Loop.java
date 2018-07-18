@@ -24,5 +24,19 @@ public class Do_While_Loop {
         } while (divBy7 == false);
         // The do-while loop executes once, even though
         // the condition specified in the do-while loop evaluates to "false"
+        System.out.println();
+
+        int num3 = 10;
+        do {
+            num3++;
+        } while (++num3 > 20);
+        System.out.println(num3); // Prints 12
+
+
+        int num4 = 10;
+        while (++num4 > 20) {
+            num4++;
+        }
+        System.out.println(num4); // Prints 11
     }
 }
