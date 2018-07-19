@@ -9,9 +9,9 @@ public class Board {
             {"     ", "|", "     ", "|", "     "},
     };
 
-    public Board() {
+    /*public Board() {
         board = board;
-    }
+    } */
 
     public void printBoard() {
         for (int i = 0; i < board.length; i++) {
