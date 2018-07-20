@@ -1,4 +1,4 @@
-package me.alexandroff.oca.gupta;
+package me.alexandroff.oca.gupta.wrapper_classes;
 
 
 public class WrapperClasses {
