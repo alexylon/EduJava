@@ -17,11 +17,13 @@ public class Rectangle implements Shape, Comparable<Shape> {
 
     @Override
     public double getArea() {
+
         return a * b;
     }
 
     @Override
     public double getPerimeter() {
+
         return 2 * (a + b);
     }
 
