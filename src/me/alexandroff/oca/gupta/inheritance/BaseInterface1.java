@@ -31,3 +31,16 @@ interface MyInterface extends BaseInterface1, BaseInterface2 {
         // MUST be overriden in "child" interface or class
     }
 }
+
+class MyClass implements MyInterface {
+
+    @Override
+    public String getName() {
+        return null;
+    }
+
+    @Override
+    public void saySmth() {
+
+    }
+}
