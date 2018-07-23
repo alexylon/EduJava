@@ -4,6 +4,8 @@ public interface BaseInterface1 {
 
     String getName();
 
+    // void color() {System.out.println("pink");} - Won't compile, no body
+
     default void saySmth() {
         System.out.println("Hello Alex");
     }
@@ -19,7 +21,7 @@ interface BaseInterface2 {
 }
 
 interface MyInterface extends BaseInterface1, BaseInterface2 {
-    // The "parent" interfaces must have the same return type when names are the same
+    // The "parent" interface methods must have the same return type when names are the same
 
     String getName();
 

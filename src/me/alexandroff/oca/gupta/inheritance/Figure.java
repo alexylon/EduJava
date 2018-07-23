@@ -44,10 +44,11 @@ class Rectangle implements Figure {
 
     static int saySmth(int a) { // Static methods are not overriden, they are not related
         return a * 2;
-    }
+    } // "static" methods are never inherited
 
     public String toString() {
-        return "Perimeter: " + this.calcPerimeter() + "\nArea: " + this.calcArea();
+        return "Perimeter: " +
+                this.calcPerimeter() + "\nArea: " + this.calcArea();
     }
 }
 
