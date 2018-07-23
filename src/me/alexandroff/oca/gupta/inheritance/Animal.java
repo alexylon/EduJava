@@ -12,10 +12,16 @@ public abstract class Animal {
 
     // There can be non-abstract methods
     void walks() {
-        System.out.println("The " + this.getColor() + " animal is walking");
+        System.out.println("The " +
+                this.getColor() + " animal is walking");
     }
 
     abstract void stops();
+
+    String saySmth() {
+        return "A word";
+    }
+
 
     String getColor() {
         return this.color;
@@ -28,9 +34,27 @@ class Dog extends Animal {
         super(color, legNumber);
     }
 
-    @Override // "abstract" methods must be overriden
+    @Override
+        // "abstract" methods must be overriden
     void stops() {
+        System.out.println("The dog stopped");
+    }
 
+    String whatIsThis() {
+        return "This is a dog";
+    }
+}
+
+class Cat extends Animal {
+
+    Cat(String color, int legNumber) { super(color, legNumber); }
+
+    void stops() {
+        System.out.println("The cat stopped");
+    }
+
+    String whatIsThis() {
+        return "This is a cat";
     }
 }
 
@@ -38,6 +62,10 @@ class TestAnimal {
     public static void main(String[] args) {
 
         Animal dog1 = new Dog("White", 4);
+        Cat cat1 = new Cat("Grey", 4);
         dog1.walks();
+        System.out.println(((Dog) dog1).whatIsThis());
+        System.out.println(dog1.saySmth());
+        System.out.println(cat1.whatIsThis());
     }
 }
