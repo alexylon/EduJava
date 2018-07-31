@@ -37,6 +37,7 @@ class Dog extends Animal {
     @Override
         // "abstract" methods must be overriden
     void stops() {
+
         System.out.println("The dog stopped");
     }
 

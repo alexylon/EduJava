@@ -2,6 +2,8 @@ package me.alexandroff.oca.gupta.inheritance;
 
 public interface Figure {
 
+    int interf = 0;
+
     double calcArea();
 
     Object printSmth();

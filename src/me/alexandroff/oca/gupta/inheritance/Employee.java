@@ -26,7 +26,7 @@ class Office {
         HRExecutive hr = new HRExecutive();
         Employee em = new HRExecutive();
         Interviewer in = new HRExecutive();
-        // HRExecutive hr2 = new Employee(); - Won't compile
+        // HRExecutive hr2 = new Employee(); - Won't compile. The object must be the child
         // Interviewer in2 = new Interviewer(); - Interfaces cannot be instantiated
 
         hr.specialization = new String[]{"Staffing"};
