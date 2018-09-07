@@ -7,7 +7,7 @@ public interface BaseInterface1 {
     // void color() {System.out.println("pink");} - Won't compile, no body
 
     default void saySmth() {
-        System.out.println("Hello Alex");
+        System.out.println("Hello BaseInterface1");
     }
 }
 
@@ -16,7 +16,7 @@ interface BaseInterface2 {
     String getName();
 
     default void saySmth() {
-        System.out.println("Hello Katia");
+        System.out.println("Hello BaseInterface2");
     }
 }
 
@@ -26,7 +26,7 @@ interface MyInterface extends BaseInterface1, BaseInterface2 {
     String getName();
 
     default void saySmth() {
-        System.out.println("Hello Anastasia");
+        System.out.println("Hello MyInterface");
         // Two different "default" methods with the same names in "parent" interfaces
         // MUST be overriden in "child" interface or class
     }
@@ -41,6 +41,17 @@ class MyClass implements MyInterface {
 
     @Override
     public void saySmth() {
+        System.out.println("Hello MyClass");
 
+    }
+
+    public static void main(String[] args) {
+        // new MyInterface().saySmth(); - Interfaces CANNOT be instantiated
+        new MyClass().saySmth(); // Hello MyClass
+
+        MyInterface myInt = new MyClass();
+        myInt.saySmth(); // Hello MyClass
+
+        // !!! BaseInterface1 and BaseInterface2 types NOT accepted here
     }
 }

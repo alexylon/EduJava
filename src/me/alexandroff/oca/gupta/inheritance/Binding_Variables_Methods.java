@@ -38,6 +38,8 @@ class Office1 {
         //object on which it’s called.
         emp.printName();
         programmer.printName(); // Prints "Programmer".
-        // "programmer" is a refference of an object of type "Programmer"
+        // "programmer" is a refference to an object of type "Programmer"
+        //"printName()" in class Programmer CAN be removed, then the output will be "Employee"
+        //"printName()" in class Employee CANNOT be removed
     }
 }

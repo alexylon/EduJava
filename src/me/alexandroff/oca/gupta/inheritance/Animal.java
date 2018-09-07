@@ -10,10 +10,10 @@ public abstract class Animal {
         this.legNumber = legNumber;
     }
 
-    // There can be non-abstract methods
+    // There CAN be non-abstract methods
     void walks() {
         System.out.println("The " +
-                this.getColor() + " animal is walking");
+                this.color + " animal is walking");
     }
 
     abstract void stops();
@@ -31,11 +31,15 @@ public abstract class Animal {
 class Dog extends Animal {
 
     Dog(String color, int legNumber) { // There should be at least a matching constructor
+
         super(color, legNumber);
+       /* NO
+       this.color = color;
+       this.legNumber = legNumber; */
     }
 
     @Override
-        // "abstract" methods must be overriden
+        // "abstract" methods MUST be overriden
     void stops() {
 
         System.out.println("The dog stopped");

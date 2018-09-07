@@ -23,6 +23,10 @@ class Programmer3 extends Employee3 {
         // statement in a derived class’s constructor.
         this.progLanguage = progLang;
     }
+
+    void printGreeting() {
+        System.out.println("Hello Programmer");
+    }
 }
 
 class TestEmployee3 {
@@ -38,6 +42,9 @@ class TestEmployee3 {
         System.out.println("Name prog: " + prog.name +
                 "; Address prog: " + prog.address + "; progLang prog: "
                 + ((Programmer3) prog).progLanguage); // !!!
+
+        // ((Programmer3) emp).printGreeting(); - Throws exception
+        ((Programmer3) prog).printGreeting();
     }
 }
 
