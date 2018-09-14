@@ -26,7 +26,9 @@ class TestRiverRafting {
         try {
             riverRafting.crossRapid(11);
             // If exception found stops here and skips to "catch-s"
-            riverRafting.rowRaft("happy");
+            riverRafting.rowRaft("nervous");
+            // If the preceding line has an exception,
+            // the second exception is not checked
             System.out.println("Enjoy River Rafting");
         } catch (FallInRiverException e1) {
             System.out.println("Get back in the raft");
