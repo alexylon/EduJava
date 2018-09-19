@@ -17,6 +17,6 @@ public class NoCatchOnlyFinally {
 }
 
 //Because main() in the preceding code throws an unchecked exception, NullPointer-
-//Exception, it compiles successfully. But if the code enclosed within a try block declares
+//Exception, it compiles successfully. But IF the code enclosed within a try block declares
 //to throw a checked exception, either it must be followed by a catch block, or the
 //method in which it is defined must declare to throw it.
