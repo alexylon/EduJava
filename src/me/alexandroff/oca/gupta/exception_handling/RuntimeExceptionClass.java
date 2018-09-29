@@ -20,7 +20,6 @@ class TestMinimumNumber {
         RuntimeExceptionClass runtimeExceptionClass = new RuntimeExceptionClass();
         runtimeExceptionClass.numberMethod(3);
         // Compiles successfully even though
-        //main neither handles nor declares FeelingHungryException
-
+        //main neither handles nor declares MinimumNumberException
     }
 }
