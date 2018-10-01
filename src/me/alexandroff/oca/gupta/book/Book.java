@@ -8,6 +8,7 @@ public class Book {
 
     public Book() {
         this(1234, "The Gulf", "Jack E. Davis");
+        //Constructor call must be first
 
         //Book(1234, "The Gulf", "Jack E. Davis"); - A constructor cannot be invoked by the class name.
     }

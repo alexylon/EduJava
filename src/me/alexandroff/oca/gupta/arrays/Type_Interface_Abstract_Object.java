@@ -24,12 +24,14 @@ public class Type_Interface_Abstract_Object {
 
         MyInterface[] interfaceArray = new MyInterface[]{
                 new MyClass1(),
+                //new MyInterface(), - MyInterface() is abstract and cannot be instantiated
                 null,
                 new MyClass2()};
 
         Vehicle[] vehiclesArray = {
                 new Car(),
-                new Bus()
+                //new Vehicle(), - Vehicle() is abstract and cannot be instantiated
+                new Bus(),
         };
 
         Object[] objArray = new Object[]{

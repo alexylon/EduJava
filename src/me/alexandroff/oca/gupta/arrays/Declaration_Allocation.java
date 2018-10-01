@@ -11,9 +11,9 @@ public class Declaration_Allocation {
         int[] intArray3 = new int[6];
         //!!! int[] intArra4 = new int[]; Won't compile. Must be allocated after "new"
 
-        int[] multiArray2[]; // !!! 2D array;
-        multiArray2 = new int[2][3];
-        int[][] multiArray1 = new int[2][3];
+        int[] multiArray1[]; // !!! 2D array;
+        multiArray1 = new int[2][3];
+        int[][] multiArray2 = new int[2][3];
 
         int[][] multD = new int[3][]; // OK!!!
         multD[0] = new int[3];
