@@ -30,8 +30,10 @@ public class Manipulate_Period {
         System.out.println();
 
         Period year1Month9Day20 = Period.of(1, 9, 20);
+        System.out.println(year1Month9Day20);
         System.out.println(year1Month9Day20.multipliedBy(2)); // There is NO dividedBy()
         System.out.println(year1Month9Day20.multipliedBy(-2));
+        System.out.println();
 
         Period newPeriod = year1Month9Day20.withYears(5);
         System.out.println(newPeriod);

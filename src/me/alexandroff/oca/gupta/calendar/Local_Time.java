@@ -34,6 +34,11 @@ public class Local_Time {
         System.out.println(alexTime.getMinute()); // NO getMinutes()
         System.out.println(alexTime.getSecond()); // NO getSeconds()
         System.out.println(alexTime.getNano()); // NO getNanoSeconds()
+        System.out.println();
+
+        //BUT
+        System.out.println(alexTime.plusMinutes(10)); // plusMinutes()
+        System.out.println(alexTime); // Immutable
 
 
     }

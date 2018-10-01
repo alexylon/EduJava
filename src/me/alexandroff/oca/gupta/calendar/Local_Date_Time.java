@@ -1,6 +1,11 @@
 package me.alexandroff.oca.gupta.calendar;
 
+import com.sun.scenario.effect.impl.sw.sse.SSEBlend_SRC_OUTPeer;
+
 import java.time.LocalDateTime;
+import java.time.Month;
+
+import static java.util.Calendar.*;
 
 public class Local_Date_Time {
 
@@ -19,5 +24,12 @@ public class Local_Date_Time {
         LocalDateTime eventMgrArrival = LocalDateTime.of(2050, 6, 5, 14, 30, 0);
         if (eventMgrArrival.isAfter(prizeCeremony.minusHours(3)))
             System.out.println("Manager is supposed to arrive 3 hrs earlier");
+        System.out.println();
+
+        LocalDateTime dateTime = LocalDateTime.of(2018, Month.OCTOBER, 1, 14, 57, 0);
+        System.out.println(dateTime);
+        LocalDateTime dateTime2 = LocalDateTime.of(2018, OCTOBER, 1, 14, 57, 0);
+        System.out.println(dateTime2); // OCTOBER = 9
+
     }
 }
