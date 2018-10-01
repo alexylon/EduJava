@@ -6,10 +6,10 @@ public class Declaration_Allocation {
 
         int[] intArray1;
         int intArray2[];
-        // int intArray3[6]; Won't compile. Cannot be allocated without "new"
+        //!!! int intArray3[6]; Won't compile. Cannot be allocated without "new"
 
         int[] intArray3 = new int[6];
-        // int[] intArra4 = new int[]; Won't compile. Must be allocated after "new"
+        //!!! int[] intArra4 = new int[]; Won't compile. Must be allocated after "new"
 
         int[] multiArray2[]; // !!! 2D array;
         multiArray2 = new int[2][3];
