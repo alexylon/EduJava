@@ -35,7 +35,7 @@ public class Do_While_Loop {
 
         int num4 = 10;
         while (++num4 > 20) {
-            num4++;
+            ++num4;
         }
         System.out.println(num4); // Prints 11
     }
