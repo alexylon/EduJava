@@ -9,9 +9,11 @@ public class Local_Time {
         LocalTime timeNow = LocalTime.now();
         LocalTime timeBreakfast = LocalTime.of(8, 0);
         LocalTime timeSec = LocalTime.of(16, 12, 42);
-        LocalTime timeNano = LocalTime.of(23, 45, 56, 987612);
+        LocalTime timeNano =
+                LocalTime.of(23, 45, 56, 987612);
         LocalTime timeParse = LocalTime.parse("09:05:01");
-        // LocalTime timeParse2 = LocalTime.parse("9:5:1"); - Throws Exeption. Must have two digit format
+        // LocalTime timeParse2 = LocalTime.parse("9:5:1");
+        // - Throws Exeption. Must have two digit format
         LocalTime alexTime = LocalTime.of(0, 25, 10);
         LocalTime katiaTime = LocalTime.parse("00:20:05");
 

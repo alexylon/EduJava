@@ -10,7 +10,8 @@ public class Manipulate_Period {
 
         LocalDate myBDay = LocalDate.of(1972, 5, 14);
         LocalDate katiaBDay = LocalDate.of(1986, 11, 15);
-        System.out.println("Our difference is: " + Period.between(myBDay, katiaBDay));
+        System.out.println("Our difference is: "
+                + Period.between(myBDay, katiaBDay));
 
         if (myBDay.isBefore(katiaBDay)) {
             System.out.println("I am older than Katia");
@@ -31,7 +32,8 @@ public class Manipulate_Period {
 
         Period year1Month9Day20 = Period.of(1, 9, 20);
         System.out.println(year1Month9Day20);
-        System.out.println(year1Month9Day20.multipliedBy(2)); // There is NO dividedBy()
+        System.out.println(year1Month9Day20.multipliedBy(2));
+        // There is NO dividedBy()
         System.out.println(year1Month9Day20.multipliedBy(-2));
         System.out.println();
 
@@ -41,6 +43,7 @@ public class Manipulate_Period {
 
         System.out.println(year1Month9Day20.toTotalMonths()); // 21 months
         Period year1Month9Day40 = Period.of(1, 9, 40);
-        System.out.println(year1Month9Day40.toTotalMonths()); // Again 21 months - doesn't include days
+        System.out.println(year1Month9Day40.toTotalMonths());
+        // Again 21 months - doesn't include days
     }
 }

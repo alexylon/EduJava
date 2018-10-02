@@ -33,6 +33,7 @@ public class Test_Calendar {
         System.out.println("LocalTime.NOON: " + LocalTime.NOON);
         System.out.println("LocalDate.MIN: " + LocalDate.MIN);
         System.out.println("LocalDate.MIN: " + LocalDate.MAX);
-        System.out.println("LocalDate.ofYearDay(1972, 172): " + LocalDate.ofYearDay(1972, 172));
+        System.out.println("LocalDate.ofYearDay(1972, 172): "
+                + LocalDate.ofYearDay(1972, 172));
     }
 }

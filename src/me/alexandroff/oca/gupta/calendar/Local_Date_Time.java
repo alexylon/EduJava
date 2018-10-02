@@ -21,14 +21,17 @@ public class Local_Date_Time {
                 LocalDateTime.parse("2050-06-05T14:30:00");
         if (prizeCeremony.plusHours(2).isAfter(chiefGuestDeparture))
             System.out.println("Chief Guest will leave before ceremony completes");
-        LocalDateTime eventMgrArrival = LocalDateTime.of(2050, 6, 5, 14, 30, 0);
+        LocalDateTime eventMgrArrival =
+                LocalDateTime.of(2050, 6, 5, 14, 30, 0);
         if (eventMgrArrival.isAfter(prizeCeremony.minusHours(3)))
             System.out.println("Manager is supposed to arrive 3 hrs earlier");
         System.out.println();
 
-        LocalDateTime dateTime = LocalDateTime.of(2018, Month.OCTOBER, 1, 14, 57, 0);
+        LocalDateTime dateTime =
+                LocalDateTime.of(2018, Month.OCTOBER, 1, 14, 57, 0);
         System.out.println(dateTime);
-        LocalDateTime dateTime2 = LocalDateTime.of(2018, OCTOBER, 1, 14, 57, 0);
+        LocalDateTime dateTime2 =
+                LocalDateTime.of(2018, OCTOBER, 1, 14, 57, 0);
         System.out.println(dateTime2); // OCTOBER = 9
 
     }
