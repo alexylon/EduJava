@@ -30,7 +30,8 @@ public abstract class Animal {
 
 class Dog extends Animal {
 
-    Dog(String color, int legNumber) { // There should be at least a matching constructor
+    Dog(String color, int legNumber) {
+        // There should be at least a matching constructor
 
         super(color, legNumber);
        /* NO
@@ -52,7 +53,9 @@ class Dog extends Animal {
 
 class Cat extends Animal {
 
-    Cat(String color, int legNumber) { super(color, legNumber); }
+    Cat(String color, int legNumber) {
+        super(color, legNumber);
+    }
 
     void stops() {
         System.out.println("The cat stopped");

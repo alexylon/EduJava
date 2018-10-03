@@ -10,7 +10,8 @@ public class StartsWith_EndsWith {
         Boolean st2 = str1.startsWith("al");
         Boolean st3 = str1.startsWith("xan", 3);
         Boolean st4 = str1.startsWith("lex");
-        //Boolean st5 = str1.startsWith('A'); - Won't copile as a char
+        //Boolean st5 = str1.startsWith('A');
+        // - Won't copile as a char
         System.out.println(st1);
         System.out.println(st2);
         System.out.println(st3);

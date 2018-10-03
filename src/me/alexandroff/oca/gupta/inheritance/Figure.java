@@ -23,7 +23,7 @@ class Rectangle implements Figure {
     private double a;
     private double b;
 
-    Rectangle (double a, double b) {
+    Rectangle(double a, double b) {
         this.a = a;
         this.b = b;
     }
@@ -40,17 +40,20 @@ class Rectangle implements Figure {
     }
 
     @Override
-    public int calcPerimeter() { // !!!The overriden "default" method must be "public"
+    public int calcPerimeter() {
+        // !!!The overriden "default" method must be "public"
+
         return (int) (2 * (a + b));
     }
 
     static int saySmth(int a) { // Static methods are not overriden, they are not related
         return a * 2;
-    } // "static" methods are never inherited
+    }
+    // "static" methods are never inherited
 
     public String toString() {
-        return "Perimeter: " +
-                this.calcPerimeter() + "\nArea: " + this.calcArea();
+        return "Perimeter: " + this.calcPerimeter()
+                + "\nArea: " + this.calcArea();
     }
 }
 

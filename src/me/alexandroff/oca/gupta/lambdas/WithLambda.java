@@ -8,7 +8,8 @@ import java.util.function.Predicate;
      * Evaluates this predicate on the given argument.
      *
      * @param t the input argument
-     * @return {@code true} if the input argument matches the predicate,
+     * @return {@code true} if the input argument
+     * matches the predicate,
      * otherwise {@code false}
 
     boolean test(T t);
@@ -26,7 +27,8 @@ class Test2 {
         empArrList.add(e2);
         empArrList.add(e3);
         empArrList.add(e4);
-        Predicate<Emp> predicate = e -> e.getPerformanceRating() >= 5;
+        Predicate<Emp> predicate = e
+                -> e.getPerformanceRating() >= 5;
         filter(empArrList, predicate);
     }
 

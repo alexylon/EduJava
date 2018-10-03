@@ -15,7 +15,8 @@ public class Operators {
 
         System.out.println(str1);
         str4 += str1;
-        System.out.println(str4); // Outputs "nullAlexander Alexandrov"
+        System.out.println(str4);
+        // Outputs "nullAlexander Alexandrov"
         System.out.println(int1 + int2 + str2);
         System.out.println("" + int1 + int2 + str2);
         System.out.println(str2 + int1 + int2);

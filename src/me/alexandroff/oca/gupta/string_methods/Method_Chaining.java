@@ -24,7 +24,8 @@ public class Method_Chaining {
         System.out.println("----------------");
 
         String letters = "ABCAB";
-        //System.out.println(letters.substring(0, 2).startsWith('A')); - Won't compile as a char
+        //System.out.println(letters.substring(0, 2).startsWith('A'));
+        // - Won't compile as a char
         System.out.println(letters.substring(0, 2).startsWith("A"));
     }
 }

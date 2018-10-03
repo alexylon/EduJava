@@ -22,6 +22,7 @@ class Emp {
     }
 
     public int getPerformanceRating() {
+
         return performanceRating;
     }
 
@@ -30,18 +31,21 @@ class Emp {
     }
 
     public String toString() {
+
         return name + ":" + performanceRating + ":" + salary;
     }
 }
 
 class ValidatePerformanceRating implements Validate {
     public boolean check(Emp emp) {
+
         return (emp.getPerformanceRating() >= 5);
     }
 }
 
 class ValidateName implements Validate {
     public boolean check(Emp emp) {
+
         return (emp.getName().startsWith("P"));
     }
 }

@@ -1,6 +1,7 @@
 package me.alexandroff.oca.gupta.inheritance;
 
-// The reference variable super can also be used to refer to the constructors of the base
+// The reference variable super can also be used
+// to refer to the constructors of the base
 //class in a derived class.
 
 public class Employee3 {
@@ -19,8 +20,9 @@ class Programmer3 extends Employee3 {
 
     Programmer3(String name, String address, String progLang) {
         super(name, address);
-        // If present, a call to a superclass’s constructor must be the first
-        // statement in a derived class’s constructor.
+        // If present, a call to a superclass’s constructor
+        // must be the first statement
+        //  in a derived class’s constructor.
         this.progLanguage = progLang;
     }
 
@@ -33,8 +35,10 @@ class TestEmployee3 {
 
     public static void main(String[] args) {
 
-        Employee3 emp = new Employee3("Vania", "Mara Dencheva");
-        Employee3 prog = new Programmer3("Alexander", "Lyulin-2",
+        Employee3 emp
+                = new Employee3("Vania", "Mara Dencheva");
+        Employee3 prog
+                = new Programmer3("Alexander", "Lyulin-2",
                 "Java");
 
         System.out.println("Name emp: " + emp.name +
@@ -43,7 +47,8 @@ class TestEmployee3 {
                 "; Address prog: " + prog.address + "; progLang prog: "
                 + ((Programmer3) prog).progLanguage); // !!!
 
-        // ((Programmer3) emp).printGreeting(); - Throws exception
+        // ((Programmer3) emp).printGreeting();
+        // - Throws exception
         ((Programmer3) prog).printGreeting();
     }
 }

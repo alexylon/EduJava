@@ -8,6 +8,7 @@ public class Length {
 
         int len = str1.length();
 
-        System.out.println("The word 'Alexander' has " + len + " letters");
+        System.out.println("The word 'Alexander' has "
+                + len + " letters");
     }
 }

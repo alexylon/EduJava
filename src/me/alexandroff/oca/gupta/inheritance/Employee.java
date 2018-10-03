@@ -26,8 +26,10 @@ class Office {
         HRExecutive hr = new HRExecutive();
         Employee em = new HRExecutive();
         Interviewer in = new HRExecutive();
-        // HRExecutive hr2 = new Employee(); - Won't compile. The object must be the child
-        // Interviewer in2 = new Interviewer(); - Interfaces cannot be instantiated
+        // HRExecutive hr2 = new Employee();
+        // - Won't compile. The object must be the child
+        // Interviewer in2 = new Interviewer();
+        // - Interfaces cannot be instantiated
 
         hr.specialization = new String[]{"Staffing"};
         System.out.println(hr.specialization[0]);
@@ -36,12 +38,15 @@ class Office {
         hr.conductInterview();
         System.out.println();
 
-        // em.specialization = new String[]{"Programming"}; - Not allowed
-        ((HRExecutive) em).specialization = new String[]{"Programming"}; // OK
+        // em.specialization = new String[]{"Programming"};
+        // - Not allowed
+        ((HRExecutive) em).specialization = new String[]{"Programming"};
+        // OK
         System.out.println(((HRExecutive) em).specialization[0]);
         em.address = "Browning str";
         System.out.println(em.address);
-        // em.conductInterview(); - Not allowed
+        // em.conductInterview();
+        // - Not allowed
         ((HRExecutive) em).conductInterview();
         in.conductInterview();
         System.out.println();

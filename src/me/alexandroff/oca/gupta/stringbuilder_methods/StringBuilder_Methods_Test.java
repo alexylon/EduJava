@@ -30,10 +30,13 @@ public class StringBuilder_Methods_Test {
         System.out.println(name);
 
         name.substring(4);
-        System.out.println(name); // !!!"substring" and "subSequence" don't change StringBuilder
-        String name2 = name.substring(4); // !!!The variable is of type "String"
+        System.out.println(name);
+        // !!!"substring" and "subSequence" don't change StringBuilder
+        String name2 = name.substring(4);
+        // !!!The variable is of type "String"
         String name3 = name.substring(1, 6);
-        CharSequence name4 = name.subSequence(1, 6); // !!!The variable is of type "CharSequence"
+        CharSequence name4 = name.subSequence(1, 6);
+        // !!!The variable is of type "CharSequence"
         System.out.println(name2);
         System.out.println(name3);
         System.out.println(name4);

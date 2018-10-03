@@ -19,6 +19,7 @@ interface Interviewer2 {
 
 class Manager implements Interviewer2 {
     public String print() {
+
         return ("I am " + this);
     }
 }

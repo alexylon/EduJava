@@ -13,7 +13,8 @@ public class Wrapper_Classes_Test1 {
         int int2 = int1_Integer;
         int int3 = int1_Integer.intValue();
 
-        //System.out.println(int1_Integer == str1); Won't compile
+        //System.out.println(int1_Integer == str1);
+        // Won't compile
         System.out.println("int1_Integer == int1_int: "
                 + (int1_Integer == int1_int));
         System.out.println("int2_valueOf == int1_int: "

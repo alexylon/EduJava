@@ -5,7 +5,8 @@ public class Delete_DeleteCharAt {
     public static void main(String[] args) {
 
         StringBuilder sb1 = new StringBuilder("Alexander");
-        sb1.delete(1, 6); // Deletes positions 1 to 6 (not inclusive)
+        sb1.delete(1, 6);
+        // Deletes positions 1 to 6 (not inclusive)
         System.out.println(sb1);
 
         StringBuilder sb2 = new StringBuilder("Alexander");

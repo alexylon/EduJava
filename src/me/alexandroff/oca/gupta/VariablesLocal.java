@@ -12,14 +12,16 @@ public class VariablesLocal {
         }
         //System.out.println(int2); int2 is out of scope
 
-        //int a = b; b cannot be defined and initialized afterwards
+        //int a = b;
+        // - "b" cannot be defined and initialized afterwards
         int b = 20;
 
         for (int i = 0; i < 5; i++) {
             System.out.println("Hello " + i);
         }
 
-        //System.out.println(i); i is out of scope
+        //System.out.println(i);
+        // - "i" is out of scope
 
     }
 }

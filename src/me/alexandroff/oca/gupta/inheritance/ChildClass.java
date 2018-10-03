@@ -1,7 +1,8 @@
 package me.alexandroff.oca.gupta.inheritance;
 
 public class ChildClass implements Interface1, Interface2 {
-    // Methods with the same names in "parent" interfaces must be overridable.
+    // Methods with the same names in "parent" interfaces
+    // must be overridable.
     // Their parameters must differ
 
     @Override

@@ -6,9 +6,11 @@ public class CharAt {
 
         String str1 = "Alexander";
 
-        System.out.println(str1.charAt(1) + str1.charAt(3) + str1.charAt(5)
+        System.out.println(str1.charAt(1)
+                + str1.charAt(3) + str1.charAt(5)
                 + str1.charAt(6) + str1.charAt(8)); //???
-        System.out.println(str1.charAt(1) + " " + str1.charAt(3) + " " + str1.charAt(5)
+        System.out.println(str1.charAt(1) + " "
+                + str1.charAt(3) + " " + str1.charAt(5)
                 + " " + str1.charAt(6) + " " + str1.charAt(8));
         System.out.println(str1.charAt(1));
         System.out.println(str1.charAt(3));
