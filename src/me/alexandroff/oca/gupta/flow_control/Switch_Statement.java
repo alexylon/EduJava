@@ -4,9 +4,11 @@ public class Switch_Statement {
 
     public static void main(String[] args) {
 
-        // A switch statement accepts arguments of types "char, byte, short, int, String,
+        // A switch statement accepts arguments of types
+        // "char, byte, short, int, String,
         // enum, Character, Byte, Integer, and Short".
-        // The switch statement doesn’t accept arguments of type "long, float, or double",
+        // The switch statement doesn’t accept arguments of type
+        // "long, float, or double",
         // or any object besides String.
 
         String str1 = null;
@@ -15,12 +17,15 @@ public class Switch_Statement {
                 System.out.println("Not allowed");
             case "Hello":
                 System.out.println("Allowed");
-        } - NullPointerException - value cannot be null, but "default" CAN be first */
+        } - NullPointerException -
+        value cannot be null, but "default" CAN be first */
 
         int a = 10, b = 20, c = 30;
         final int d = 40, e = 50;
+
         final int f;
         f = 60;
+
         switch (a) {
             case 5 + 10: // OK
                 System.out.println(20 + 30);
@@ -34,7 +39,8 @@ public class Switch_Statement {
             case e - 40:
                 System.out.println("Right");
                 break;
-            // case f + 20: !!! Very strange but WON'T compile, because
+            // case f + 20:
+            // !!! Very strange but WON'T compile, because
             // the "final" variable f isn’t initialized with its declaration
             // "default" CAN be missed
         }

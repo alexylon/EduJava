@@ -25,7 +25,8 @@ public class Twist_5_4 {
             }
         }
         // When this code executes "break outer;",
-        // control transfers to the line of text that marks the end of this block.
+        // control transfers to the line of text
+        // that marks the end of this block.
         // It doesn’t transfer control to the label "outer".
     }
 }

@@ -7,13 +7,16 @@ public class Ternary_Construct {
         int bill = 200;
         int discount;
 
-        // (bill > 200) ? discount = 15 : discount = 10; - Won't compile, variable expected
+        // (bill > 200) ? discount = 15 : discount = 10;
+        // - Won't compile, variable expected
 
         discount = (bill > 199) ? 15 : 10;
-        System.out.println("For bill $" + bill + " the discount is " + discount + "%");
+        System.out.println("For bill $" + bill
+                + " the discount is " + discount + "%");
         System.out.println();
 
-        // discount = (bill > 199) ? 15; - Won't compile, there is no "else" part
+        // discount = (bill > 199) ? 15;
+        // - Won't compile, there is no "else" part
 
         /*
         long bill = 2000;
