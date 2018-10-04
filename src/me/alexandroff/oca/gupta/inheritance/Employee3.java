@@ -19,11 +19,12 @@ class Programmer3 extends Employee3 {
     String progLanguage;
 
     Programmer3(String name, String address, String progLang) {
-        super(name, address);
-        // If present, a call to a superclass’s constructor
+        super(name, address); // OR super("alex", "lyulin");
+        // A call to a superclass’s constructor
         // must be the first statement
         //  in a derived class’s constructor.
         this.progLanguage = progLang;
+
     }
 
     void printGreeting() {

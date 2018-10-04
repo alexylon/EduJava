@@ -6,7 +6,7 @@ public class Employee4 {
 
 class Programmer extends Employee {
     String name;
-
+// !!!
     static void setNames() {
         // this.name = "Programmer";
         // !!! Can’t use "this" in static method

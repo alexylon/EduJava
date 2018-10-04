@@ -5,7 +5,7 @@ public interface BaseInterface1 {
     String getName();
 
     // void color() {System.out.println("pink");}
-    // - Won't compile, no body
+    //- Won't compile, interface abstract methods cannot have body
 
     default void saySmth() {
 
