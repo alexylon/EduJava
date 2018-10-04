@@ -8,6 +8,7 @@ public interface BaseInterface1 {
     // - Won't compile, no body
 
     default void saySmth() {
+
         System.out.println("Hello BaseInterface1");
     }
 }
@@ -17,6 +18,7 @@ interface BaseInterface2 {
     String getName();
 
     default void saySmth() {
+
         System.out.println("Hello BaseInterface2");
     }
 }
