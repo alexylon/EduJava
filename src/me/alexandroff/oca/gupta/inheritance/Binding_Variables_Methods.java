@@ -4,7 +4,7 @@ package me.alexandroff.oca.gupta.inheritance;
 //the variables and methods for these objects.
 // With inheritance, the instance variables
 // bind at compile time (to classes)
-// and the methods bind at runtime (to objects).
+// but the methods bind at runtime (to objects).
 
 class Employee6 {
     String name = "Employee";

@@ -53,11 +53,16 @@ class MyClass implements MyInterface {
     public static void main(String[] args) {
         // new MyInterface().saySmth();
         // - Interfaces CANNOT be instantiated
-        new MyClass().saySmth(); // Hello MyClass
+
+        new MyClass().saySmth();
+        // "Hello MyClass"
 
         MyInterface myInt = new MyClass();
-        myInt.saySmth(); // Hello MyClass
+        myInt.saySmth();
+        // "Hello MyClass"
 
-        //!!! BaseInterface1 and BaseInterface2 types NOT accepted here
+        BaseInterface1 baseInterface1 = new MyClass();
+        baseInterface1.saySmth();
+        // "Hello MyClass"
     }
 }
