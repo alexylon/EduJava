@@ -31,6 +31,8 @@ public class WrapperClasses {
         System.out.println();
 
         System.out.println(int5);
+        //System.out.println(int1 + int2 + int3 + int4 + int5 + int6);
+        // - NullPointerException
         //System.out.println(Integer.valueOf(int5));
         // - NullPointerException
         //System.out.println(int5.intValue());
