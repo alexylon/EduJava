@@ -8,7 +8,7 @@ public class IndexOf {
 
         System.out.println(str1);
         System.out.println("Index of 'x': "
-                + str1.indexOf('x'));
+                + str1.indexOf('x')); //Can be of type 'char'
         System.out.println("Index of ''x'': "
                 + str1.indexOf("x"));
         System.out.println("Index of ''xan'': "
