@@ -8,12 +8,12 @@ public class MainOverload {
     }
 
     public static void main(String args[]) {
-        System.out.println("Hello exam");
+        System.out.println("Hello from bash 'main'");
         main(5);
     }
 
     public static void main(int number) {
 
-        System.out.println("Hello exam 3: " + number);
+        System.out.println("Hello from 'main(int number)': " + number);
     }
 }
