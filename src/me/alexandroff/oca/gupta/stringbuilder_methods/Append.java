@@ -15,7 +15,7 @@ public class Append {
         System.out.println(sb2);
 
         //StringBuilder sb3 = "Ekaterina Alexandrova";
-        // - Won't compile. Can create StringBuilder type only with "new"
+        //!!! Won't compile. StringBuilder type can be created  only with "new"
         StringBuilder sb3 = new StringBuilder("Ekaterina Alexandrova");
         sb3.append(" M").append(" 1986 ").append(true);
         System.out.println(sb3);
