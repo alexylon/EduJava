@@ -24,5 +24,17 @@ public class Append {
         char[] name = {'J', 'a', 'v', 'a', '8'};
         sb4.append(name, 1, 3);
         System.out.println("sb4: " + sb4);
+
+        StringBuilder sb5 = new StringBuilder("012345");
+        sb5.append(false);
+        System.out.println(sb5);
+
+        int[] arrInt = new int[0];
+        String[] arrStr = new String[0];
+        System.out.println(arrInt.length);
+
+        int i = 1234567890;
+        float f = i;
+
     }
 }
