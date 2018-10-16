@@ -32,12 +32,13 @@ public class Switch_Date {
             case "FRIDAY":
                 System.out.println("Nearing weekend");
                 break;
+            default:
+                System.out.println("Invalid day?");
             case "SATURDAY":
             case "SUNDAY":
                 System.out.println("Weekend!");
                 break;
-            default:
-                System.out.println("Invalid day?");
+            // Any order "case - default" is valid
         }
     }
 }
