@@ -1,13 +1,17 @@
 package me.alexandroff.oca.simulator;
 
 class E {
+    void printSmth() {
+        System.out.println("Hello");
+    }
 }
+
 
 class EE extends E {
 }
 
 
-class TestClass3 {
+class TestClassE {
     public static void main(String[] args) throws Exception {
         E a = new E();
         EE aa = new EE();
