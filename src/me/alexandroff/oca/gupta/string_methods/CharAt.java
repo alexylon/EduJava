@@ -9,6 +9,7 @@ public class CharAt {
         System.out.println(str1.charAt(1)
                 + str1.charAt(3) + str1.charAt(5)
                 + str1.charAt(6) + str1.charAt(8)); //???
+        System.out.println(str1.charAt(3) + str1.charAt(6)); //???
         System.out.println(str1.charAt(1) + " "
                 + str1.charAt(3) + " " + str1.charAt(5)
                 + " " + str1.charAt(6) + " " + str1.charAt(8));
@@ -24,7 +25,7 @@ public class CharAt {
             char letter = str1.charAt(i);
 
             if (letter == 'e') {
-                System.out.print(i + " ");
+                System.out.print(letter + " ");
             }
         }
 
@@ -33,7 +34,13 @@ public class CharAt {
         for (int i = 0; i < 9; i++) {
             char letter = str1.charAt(i);
             System.out.print(letter);
+        }
 
+        System.out.println();
+
+        for (int i = 0; i < 9; i++) {
+            char letter = str1.charAt(i);
+            System.out.print(letter + letter); //??
         }
     }
 }
