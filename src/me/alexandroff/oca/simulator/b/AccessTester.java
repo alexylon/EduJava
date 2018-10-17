@@ -47,3 +47,8 @@ public class AccessTester extends AccessTest {
         ref3.d();
     }
 }
+
+/*
+Constructors and static initializers are not members
+and therefore are not inherited.
+ */

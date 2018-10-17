@@ -1,13 +1,26 @@
 package me.alexandroff.oca.simulator;
 
+interface I {
+    int var = 10;
+}
+
 class E {
+    final int VAR = 10;
+
     void printSmth() {
         System.out.println("Hello");
     }
 }
 
+class EE extends E implements I {
+    final int VAR = 20;
+    //'final' variables CAN be hidden
 
-class EE extends E {
+    /*
+    var = 20;
+    */
+    //'var' in the interface is ALWAYS 'public', 'static', 'final'
+    //and cannot be assigned a new value
 }
 
 

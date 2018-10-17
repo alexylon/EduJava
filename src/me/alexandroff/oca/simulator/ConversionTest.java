@@ -8,6 +8,7 @@ public class ConversionTest {
         short shortVar = 10; // 16 bits
 
         int intVar = 20; // 32 bits
+        final int INTVAR = 20;
         long longVar = 20; // 64 bits
 
         float floatVar = 20; // 32 bits
@@ -44,11 +45,16 @@ public class ConversionTest {
         shortVar = byteVar;
         shortVar = (short) charVar; // !!!
         shortVar = (short) intVar;
+        shortVar = INTVAR; // !!!
+        //Implicit narrowing occurs only for
+        // byte, char, short, and int
 
         charVar = (char) byteVar; // !!!
         charVar = (char) shortVar;
 
         byteVar = (byte) charVar;
         byteVar = (byte) shortVar;
+
+
     }
 }
