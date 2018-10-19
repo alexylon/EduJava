@@ -13,5 +13,12 @@ public class Test06 {
         byte b1 = 1;
         System.out.println(i1 == i2);
         System.out.println(i1 == b1);
+
+        if (false) ;
+        else ;
+        //A valid statement, but notice the semicolons
+
+        if (true) if (false) ;
+        //A valid statement
     }
 }
