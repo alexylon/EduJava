@@ -24,6 +24,8 @@ class SubAbstractE extends AbstractE {
         System.out.println("printOther");
     }
     //All overriden methods must NOT have more restrited access
+    //and may NOT throw an exception if the previous method does not
+    //they can throw the same exception or a sub-exception, but not super-exception
 
     private void printSmth(String str) throws Exception {
         System.out.println("printOther");
