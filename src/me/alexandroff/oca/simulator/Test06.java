@@ -11,8 +11,17 @@ public class Test06 {
         Integer i1 = new Integer(1);
         int i2 = 1;
         byte b1 = 1;
-        System.out.println(i1 == i2);
-        System.out.println(i1 == b1);
+        Integer i3 = 1;
+
+        System.out.println(i1 == i2); //true
+        //!!! if one of the operands if a primitive,
+        // the other operand is auto-unboxed and becomes a primitive too
+
+        System.out.println(i1 == b1); //true
+        // -||-
+
+        System.out.println(i1 == i3); //false
+        //Both operands are different objects
 
         if (false) ;
         else ;
