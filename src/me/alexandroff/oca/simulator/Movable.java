@@ -10,6 +10,12 @@ public interface Movable {
 
 class Donkey implements Movable {
     int location = 200;
+    //'location' from the interface can be hidden
+    /*
+    location = 200;
+    */
+    //BUT 'location' from the interface CANNOT be assighed again
+    //as it is always 'public', 'static' and 'final'
 
     public void move(int by) {
         location = location + by;
