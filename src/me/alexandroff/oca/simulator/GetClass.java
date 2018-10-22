@@ -42,7 +42,6 @@ class EE extends E implements I {
     }
     //Overloaded constructor
 
-
     /*
     var = 20;
     */

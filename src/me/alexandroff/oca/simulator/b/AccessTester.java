@@ -10,7 +10,7 @@ public class AccessTest {
 
     //If extended by a class in another package, this constructor must be 'public'
     //or 'protected'. But if it is 'protected' then ref.var. and 'new object'
-    //must not be both of type 'AccessTest'
+    //must NOT be both of type 'AccessTest'
 
     protected void c() {
     }

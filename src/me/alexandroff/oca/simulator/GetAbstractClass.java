@@ -4,6 +4,7 @@ abstract class AbstractE {
     String str = "Variable from AbstractE";
 
     abstract void printAbstract();
+    //identifier 'abstract' is mandatory if there's no body in an abstract class
 
     void printSmth() {
         System.out.println("printSmth");
@@ -16,7 +17,19 @@ class SubAbstractE extends AbstractE {
     void printAbstract() {
         System.out.println("Method from SubAbstractE");
     }
-    //Abstract methods in non-abstract subclasses must be implemented
+    //Abstract methods in non-abstract subclasses must be overriden
+    //They must NOT have more restrited access
+
+    void printSmth() {
+        System.out.println("printOther");
+    }
+    //All overriden methods must NOT have more restrited access
+
+    private void printSmth(String str) throws Exception {
+        System.out.println("printOther");
+    }
+    //But instead, overloaded methods MAY have more restrited access
+    //and MEY throw an exception even if the first class does not
 }
 
 class testAbstract {
@@ -37,6 +50,9 @@ class testAbstract {
     }
 }
 
-abstract class subTestAbstract extends testAbstract {
+abstract class subTestAbstract extends SubAbstractE {
     //!!! An abstract class CAN extend a concrete class
+
+    abstract void printAbstract();
+    //A concrete method can be overriden by an abstract method
 }

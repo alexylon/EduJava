@@ -13,6 +13,9 @@ class Type1Bozo implements Bozo {
         // type = 1;
         // !!! Fields in interfaces are ALWAYS public, static and final
         // thus it cannot be assigned a value to 'type'
+        //BUT
+        int type = 1;
+        //this field is a NEW variable
 
     }
 
