@@ -29,7 +29,7 @@ class SubAbstractE extends AbstractE {
         System.out.println("printOther");
     }
     //But instead, overloaded methods MAY have more restrited access
-    //and MEY throw an exception even if the first class does not
+    //and MAY throw an exception even if the first class does not
 }
 
 class testAbstract {
