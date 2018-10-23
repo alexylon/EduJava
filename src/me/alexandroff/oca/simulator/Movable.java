@@ -32,5 +32,8 @@ class TestClassDonkey {
         m.move(10);
         m.moveBack(20);
         System.out.println(m.location);
+
+        double db = 43e1;
+        System.out.println(db);
     }
 }

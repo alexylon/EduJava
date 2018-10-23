@@ -12,7 +12,7 @@ public class Test10 {
         System.out.println(i1 == i2);//false
         System.out.println(i1 == i3);//true
         //because one operand is a primitive int and so the other
-        // will be unboxed and then the value will be compared
+        // will be auto-unboxed and then the value will be compared
         /*
         System.out.println(i1 == b1); - Won't compile
         System.out.println(i1 == l1); - Won't compile

@@ -4,15 +4,15 @@ public class ConversionTest {
     public static void main(String[] args) {
 
         byte byteVar = 5; //8 bits
-        char charVar = 'A'; // 16 bits
-        short shortVar = 10; // 16 bits
+        char charVar = 5; // 16 bits
+        short shortVar = 5; // 16 bits
 
-        int intVar = 20; // 32 bits
-        final int INTVAR = 20;
-        long longVar = 20; // 64 bits
+        int intVar = 5; // 32 bits
+        final int INTVAR = 5;
+        long longVar = 5; // 64 bits
 
-        float floatVar = 20; // 32 bits
-        double doubleVar = 20; // 64 bits
+        float floatVar = 5; // 32 bits
+        double doubleVar = 5; // 64 bits
 
         doubleVar = byteVar;
         doubleVar = charVar;
@@ -47,13 +47,19 @@ public class ConversionTest {
         shortVar = (short) intVar;
         shortVar = INTVAR; // !!!
         //Implicit narrowing occurs only for
-        // byte, char, short, and int
+        // 'final' byte, char, short, and int
 
         charVar = (char) byteVar; // !!!
         charVar = (char) shortVar;
+        charVar = INTVAR;
+        //Implicit narrowing occurs only for
+        // 'final' byte, char, short, and int
 
         byteVar = (byte) charVar;
         byteVar = (byte) shortVar;
+        byteVar = INTVAR;
+        //Implicit narrowing occurs only for
+        // 'final' byte, char, short, and int
 
 
     }
