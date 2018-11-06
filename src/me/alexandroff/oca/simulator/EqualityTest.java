@@ -23,7 +23,7 @@ public class EqualityTest {
         //System.out.println(str == integ);
         //DOES NOT COMPILE
 
-/* Infinite loop
+/* Infinite loop. i is always 0
         for (int i = 0; i < 10; ) {
             i = i++;
             System.out.println("Hello World");
