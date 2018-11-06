@@ -19,6 +19,15 @@ public class For_Loop {
 
         // System.out.println(b); - Won't compile, "b" out of scope
 
+        int intVar;
+        double doubleVar;
+        for (intVar = 5, doubleVar = 10.0; intVar < 10 && doubleVar > 5;
+             intVar++, doubleVar--) {
+            // If declared before the 'for' loop,
+            // init. vars CAN be of different type
+            System.out.println("Different types");
+        }
+
         long n = 10;
         for (int b = 1; n < 15; n++) {
             // "n" and "b" are of different type
