@@ -17,6 +17,7 @@ public class ArrayListTest {
         listSb.add(new StringBuilder("Alexander"));
         listSb.add(new StringBuilder("Kroumov"));
         listSb.add(new StringBuilder("Alexandrov"));
+        System.out.println(listSb.size());
         System.out.println(listSb);
         System.out.println(listSb.indexOf(new StringBuilder("Kroumov")));
         System.out.println(listSb.indexOf("Kroumov"));

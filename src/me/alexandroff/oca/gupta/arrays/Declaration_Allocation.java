@@ -14,6 +14,7 @@ public class Declaration_Allocation {
         int[] multiArray1[]; // !!! 2D array;
         multiArray1 = new int[2][3];
         int[][] multiArray2 = new int[2][3];
+        //int[][] multiArray8 = new int[][]; DOES NOT COMPILE
 
         int[][] multD = new int[3][]; // OK!!!
         multD[0] = new int[3];
