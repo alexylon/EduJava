@@ -15,5 +15,7 @@ public class Test14 {
         System.out.println(Arrays.binarySearch(intArray, 3));
         System.out.println(Arrays.binarySearch(intArray, 2));
         System.out.println(Arrays.binarySearch(intArray, 1));
+
+        System.out.println();
     }
 }

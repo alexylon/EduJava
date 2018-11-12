@@ -2,311 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="57587dbd-72ff-48a7-992f-79282308fe3c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/EduJava.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MacBook.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/Lines.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/accountex/Account.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/accountex/AccountBalanceException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/accountex/Client.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/accountex/Test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/booktest/Author.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/booktest/Author.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/booktest/Book.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/booktest/Book.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/booktest/BookStoreClient.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/booktest/BookStoreClient.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/booktest/Bookstore.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/cards/Card.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/hackerrank/ArraySum.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/hackerrank/MagicSquare.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/hackerrank/Solution.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/hackerrank/Solution2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/hackerrank/Starecase.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/maxplus/account/AccountSpecification.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/maxplus/account/AccountType.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/maxplus/account/BankTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/maxplus/account/BankTest2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/maxplus/account/Client.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/maxplus/account/CreditAccount.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/maxplus/account/SavingsAccount.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/maxplus/bookstore/ArrayBook.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/maxplus/bookstore/Author.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/maxplus/bookstore/Book.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/maxplus/bookstore/BookStore.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/maxplus/bookstore/BookStoreTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/maxplus/discountcard/Customer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/maxplus/discountcard/DiscountCardTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/maxplus/discountcard/DiscountRate.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/maxplus/discountcard/Visit.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/maxplus/exercises_1_7/Exercise1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/maxplus/exercises_1_7/Exercise10.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/maxplus/exercises_1_7/Exercise2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/maxplus/exercises_1_7/Exercise3.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/maxplus/exercises_1_7/Exercise4.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/maxplus/exercises_1_7/Exercise5.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/maxplus/exercises_1_7/Exercise6.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/maxplus/exercises_1_7/Exercise7.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/maxplus/exercises_1_7/Exercise8.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/maxplus/exercises_1_7/Exercise9.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/maxplus/figure/Circle.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/maxplus/figure/Figure.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/maxplus/figure/PerimeterComparator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/maxplus/figure/Rectangle.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/maxplus/figure/TestFigure.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/maxplus/inheritance/Animal.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/maxplus/inheritance/Dog.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/maxplus/inheritance/TestAnimals.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/maxplus/java_io/DirList.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/maxplus/java_io/DirList2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/maxplus/java_io/LongestWord.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/maxplus/java_io/MergeFiles.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/maxplus/java_io/SortedWords.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/maxplus/java_io/TextInput.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/maxplus/jcf/ArrayListString.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/maxplus/jcf/ArrayListTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/maxplus/jcf/ClassRoom.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/maxplus/jcf/PriorityQueueTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/maxplus/jcf/UrlTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/maxplus/jfc/Animal.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/maxplus/jfc/Employee.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/maxplus/jfc/HashEqualsTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/maxplus/jfc/ListTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/maxplus/jfc/MapTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/maxplus/jfc/SetTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/maxplus/lectures/lecture_04/BodyMassIndex.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/maxplus/lectures/lecture_04/Guess.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/maxplus/lectures/lecture_04/MinNumber.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/maxplus/lectures/lecture_05/DayNumber.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/maxplus/lectures/lecture_05/Employee.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/maxplus/lectures/lecture_05/Grade.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/maxplus/lectures/lecture_05/GradeToOcenka.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/maxplus/lectures/lecture_05/GreetingHour.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/maxplus/lectures/lecture_05/NumberCheck.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/maxplus/lectures/lecture_05/Triangle.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/maxplus/lectures/lecture_06/Factorial.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/maxplus/lectures/lecture_06/NPrint.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/maxplus/lectures/lecture_06/NPrintBack.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/maxplus/lectures/lecture_06/PrintOdds.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/maxplus/lectures/lecture_06/SevenAndNine.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/maxplus/lectures/lecture_07/NElements.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/maxplus/lectures/lecture_07/Toto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/maxplus/lectures/lecture_07/TotoCollection.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/maxplus/lectures/lecture_07/TotoMethods.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/maxplus/lectures/lecture_08/TestToString.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/maxplus/lectures/lecture_10/EmpTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/maxplus/lectures/lecture_11/CalendarTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/maxplus/lectures/lecture_11/DateTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/maxplus/lectures/lecture_11/RegexTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/maxplus/lectures/lecture_12/ZeroDivision.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/maxplus/model/Book.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/maxplus/model/Company.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/maxplus/model/Door.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/maxplus/model/Employee.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/maxplus/model/Rectangle.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/maxplus/shape/Circle.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/maxplus/shape/Rectangle.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/maxplus/shape/Shape.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/maxplus/shape/ShapeTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/maxplus/threads/TestRunnable.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/maxplus/threads/TestThread.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/misc/Check.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/misc/Check3_5.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/misc/ClassRoom.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/misc/ClassRoom4.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/misc/DecBinHex.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/misc/Dogs.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/misc/ExceptionTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/misc/Factorial.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/misc/Lecture2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/misc/LongInt.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/misc/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/misc/Operator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/misc/People.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/misc/Players.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/misc/Random1_5.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/misc/RecursiveTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/misc/RoundedGrades.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/misc/Scores.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/misc/Test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/misc/Toto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/misc/Toto29.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/misc/TotoSet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/misc/User2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/misc/Variables.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/misc/book/Book.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/misc/book/Test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/oca/HelloWorld.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/oca/gupta/LogicalOperators.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/oca/gupta/MainOverload.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/oca/gupta/MethodParameters.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/oca/gupta/Unary.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/oca/gupta/VariablesLocal.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/oca/gupta/arraylist/Access_Elements.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/oca/gupta/arraylist/Access_Individual_Elements.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/oca/gupta/arraylist/AddAll.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/oca/gupta/arraylist/Add_Elements.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/oca/gupta/arraylist/ArrayListTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/oca/gupta/arraylist/Clear.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/oca/gupta/arraylist/Clone.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/oca/gupta/arraylist/Modify.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/oca/gupta/arraylist/Remove_Elements.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/oca/gupta/arraylist/ToArray.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/oca/gupta/arrays/Declaration_Allocation.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/oca/gupta/arrays/Initialization.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/oca/gupta/arrays/Type_Interface_Abstract_Object.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/oca/gupta/book/Book.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/oca/gupta/book/Test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/oca/gupta/calendar/CombiningWithDate.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/oca/gupta/calendar/Convert_Local_Date.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/oca/gupta/calendar/Date_Time_Formatter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/oca/gupta/calendar/Local_Date.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/oca/gupta/calendar/Local_Date_Time.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/oca/gupta/calendar/Local_Time.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/oca/gupta/calendar/Manipulate_LocalDate_LocalDateTime.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/oca/gupta/calendar/Manipulate_LocalTime.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/oca/gupta/calendar/Manipulate_Period.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/oca/gupta/calendar/Period_Test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/oca/gupta/calendar/Test_Calendar.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/oca/gupta/calendar/WorldRecord.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/oca/gupta/equals/BankAccount.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/oca/gupta/equals/String_Equals.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/oca/gupta/equals/Test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/oca/gupta/exception_handling/ArithmeticExceptionClass.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/oca/gupta/exception_handling/CaseBaseExceptionBeforeDerived.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/oca/gupta/exception_handling/CatchError.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/oca/gupta/exception_handling/CheckedExceptionClass.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/oca/gupta/exception_handling/ClassCastExceptionTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/oca/gupta/exception_handling/ErrorExceptionClass.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/oca/gupta/exception_handling/ExceptionInInitializerErrorClass.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/oca/gupta/exception_handling/InvalidArrayAccess.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/oca/gupta/exception_handling/MultipleExceptions.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/oca/gupta/exception_handling/MultipleReturn.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/oca/gupta/exception_handling/MultipleReturn2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/oca/gupta/exception_handling/MultipleReturn3.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/oca/gupta/exception_handling/NestedTryCatch.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/oca/gupta/exception_handling/NoCatchOnlyFinally.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/oca/gupta/exception_handling/NullPointerExceptionClass.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/oca/gupta/exception_handling/NumberFormatExceptionClass.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/oca/gupta/exception_handling/ReturnFromCatchBlock.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/oca/gupta/exception_handling/RiverRafting.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/oca/gupta/exception_handling/RuntimeExceptionClass.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/oca/gupta/exception_handling/Teaching.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/oca/gupta/exception_handling/TwistInTaleCasting.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/oca/gupta/exception_handling/TwistInTaleCatchError.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/oca/gupta/exception_handling/TwistInTaleNestedTryCatch.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/oca/gupta/flow_control/Break_Continue.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/oca/gupta/flow_control/Do_While_Loop.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/oca/gupta/flow_control/For_Each_Limitations.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/oca/gupta/flow_control/For_Each_Loop.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/oca/gupta/flow_control/For_Each_Nested.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/oca/gupta/flow_control/For_Each_Nested_Test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/oca/gupta/flow_control/For_Loop.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/oca/gupta/flow_control/For_Loop_Nested.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/oca/gupta/flow_control/For_Loop_Test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/oca/gupta/flow_control/If_Else.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/oca/gupta/flow_control/If_Else_Nested.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/oca/gupta/flow_control/Labeled_Statements.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/oca/gupta/flow_control/Switch_Date.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/oca/gupta/flow_control/Switch_Statement.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/oca/gupta/flow_control/Ternary_Construct.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/oca/gupta/flow_control/Ternary_Construct_Nested.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/oca/gupta/flow_control/Twist.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/oca/gupta/flow_control/Twist_5_4.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/oca/gupta/flow_control/While_Loop.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/oca/gupta/inheritance/Animal.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/oca/gupta/inheritance/BaseClass.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/oca/gupta/inheritance/BaseInterface1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/oca/gupta/inheritance/Binding_Variables_Methods.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/oca/gupta/inheritance/ChildClass.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/oca/gupta/inheritance/Employee.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/oca/gupta/inheritance/Employee2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/oca/gupta/inheritance/Employee3.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/oca/gupta/inheritance/Employee4.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/oca/gupta/inheritance/Employee5.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/oca/gupta/inheritance/Figure.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/oca/gupta/inheritance/Interviewer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/oca/gupta/inheritance/ThisTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/oca/gupta/inheritance/Vehicle.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/oca/gupta/lambdas/NoLambda.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/oca/gupta/lambdas/NumericTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/oca/gupta/lambdas/StringTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/oca/gupta/lambdas/WithLambda.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/oca/gupta/lambdas/WithPredicat.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/oca/gupta/string_methods/CharAt.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/oca/gupta/string_methods/Concat.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/oca/gupta/string_methods/Equals_Method.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/oca/gupta/string_methods/IndexOf.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/oca/gupta/string_methods/Length.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/oca/gupta/string_methods/Method_Chaining.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/oca/gupta/string_methods/My_Tests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/oca/gupta/string_methods/Operators.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/oca/gupta/string_methods/Replace.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/oca/gupta/string_methods/StartsWith_EndsWith.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/oca/gupta/string_methods/String_Methods_Test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/oca/gupta/string_methods/Substring.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/oca/gupta/string_methods/Trim.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/oca/gupta/stringbuilder_methods/Append.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/oca/gupta/stringbuilder_methods/Delete_DeleteCharAt.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/oca/gupta/stringbuilder_methods/Insert.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/oca/gupta/stringbuilder_methods/Replace.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/oca/gupta/stringbuilder_methods/Reverse.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/oca/gupta/stringbuilder_methods/StringBuilder_Methods_Test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/oca/gupta/stringbuilder_methods/Substring_SubSequence.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/oca/gupta/wrapper_classes/WrapperClasses.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/oca/gupta/wrapper_classes/Wrapper_Classes_Test1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/oca/gupta/wrapper_classes/Wrapper_Classes_Test2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/oca/gupta/wrapper_classes/Wrapper_Classes_Test3.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/oca/simulator/Animal.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/oca/simulator/ArrayTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/oca/simulator/Bozo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/oca/simulator/CanSwim.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/oca/simulator/ConversionTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/oca/simulator/ConversionTest02.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/oca/simulator/CoolTrickArrayList.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/oca/simulator/DeclaringVariables.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/oca/simulator/Deer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/oca/simulator/Egret.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/oca/simulator/EqualityTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/oca/simulator/Flyer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/oca/simulator/GetAbstractClass.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/oca/simulator/GetClass.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/oca/simulator/InheritConstructor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/oca/simulator/InitTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/oca/simulator/InstanceOfTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/oca/simulator/Interfaces.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/oca/simulator/Iterator_ListIterator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/oca/simulator/ListConvertArray.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/oca/simulator/Movable.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/oca/simulator/Object_Integer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/oca/simulator/OverridingMethods.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/oca/simulator/PredicateTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/oca/simulator/Primitive_Object.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/oca/simulator/StringBuilderTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/oca/simulator/StringTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/oca/simulator/String_Equality.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/oca/simulator/SublistMethod.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/oca/simulator/SwitchCase.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/oca/simulator/Test01.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/oca/simulator/Test02.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/oca/simulator/Test03.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/oca/simulator/Test04.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/oca/simulator/Test05.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/oca/simulator/Test06.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/oca/simulator/Test07.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/oca/simulator/Test08.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/oca/simulator/Test09.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/oca/simulator/Test10.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/oca/simulator/Test11.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/oca/simulator/Test12.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/oca/simulator/Test13.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/oca/simulator/Test14.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/oca/simulator/WrapperClasses.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/oca/simulator/a/AccessTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/oca/simulator/b/AccessTester.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/tictactoe/Board.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/tictactoe/TicTacToeAI.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/time/Time.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/alexandroff/time/TimeClient.java" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/My.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -322,6 +21,17 @@
           <entry key="project.closed" value="2" />
           <entry key="project.open.time.5" value="2" />
           <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="1147151854">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="3" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
     </session>
@@ -345,11 +55,52 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="My" type="b2602c69:ProjectViewProjectNode" />
+              <item name="My" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="My" type="b2602c69:ProjectViewProjectNode" />
+              <item name="My" type="462c0819:PsiDirectoryNode" />
+              <item name="EduJava" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="My" type="b2602c69:ProjectViewProjectNode" />
+              <item name="My" type="462c0819:PsiDirectoryNode" />
+              <item name="EduJava" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="My" type="b2602c69:ProjectViewProjectNode" />
+              <item name="My" type="462c0819:PsiDirectoryNode" />
+              <item name="EduJava" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="me" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="My" type="b2602c69:ProjectViewProjectNode" />
+              <item name="My" type="462c0819:PsiDirectoryNode" />
+              <item name="EduJava" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="me" type="462c0819:PsiDirectoryNode" />
+              <item name="alexandroff" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../EduJava" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -375,16 +126,19 @@
       <updated>1541854403765</updated>
       <workItem from="1541854407882" duration="101000" />
       <workItem from="1541854549503" duration="26000" />
+      <workItem from="1542015878600" duration="524000" />
+      <workItem from="1542032354035" duration="48000" />
+      <workItem from="1542032499642" duration="19000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="127000" />
+    <option name="totallyTimeSpent" value="718000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="260" y="43" width="1400" height="966" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25746268" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
