@@ -40,7 +40,11 @@ public class AccessTester extends AccessTest {
         ref1.b; - NO
         ref1.c(); - NO as ref1 is not of the type of the derived class
         ref2.c(); - -||-
+        System.out.println(ref1.c); -||-
+        System.out.println(ref2.c); -||-
         */
+
+        System.out.println(ref3.c);
         ref1.d();
         ref2.d();
         ref3.c(); //!!!

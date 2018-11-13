@@ -3,6 +3,7 @@ package me.alexandroff.oca.simulator.a;
 public class AccessTest {
     int a;
     private int b;
+    protected int c;
 
     public AccessTest() {
     }
@@ -12,6 +13,8 @@ public class AccessTest {
 
     protected void c() {
     }
+    // This method can be accessed in a child class WITHOUT reference variable
+    // or the reference variable is NOT of super type (AccessTest)
 
     public int d() {
         return 0;
