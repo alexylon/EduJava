@@ -8,13 +8,21 @@ public class EqualityTest {
 
         int intVar = 5; // 32 bits
         final int INTVAR = 5;
+        Integer objInt = 5;
         long longVar = 5; // 64 bits
 
         float floatVar = 5; // 32 bits
         double doubleVar = 5; // 64 bits
+        Double objDouble = 5.0; // Does not accept '5'
+
+        String str1 = "5";
 
         System.out.println(byteVar == doubleVar); // true
         System.out.println(charVar == floatVar); // true
+        System.out.println(charVar == INTVAR); // true
+        System.out.println(byteVar == objInt); // true - auto-unboxing
+        //System.out.println(objInt == objDouble); - Objects of different types cannot use '=='
+        //System.out.println(byteVar == str1); - No way
         //System.out.println(byteVar.equals(doubleVar));
         //DOES NOT COMPILE
 

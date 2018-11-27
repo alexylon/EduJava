@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/EduJava.iml" filepath="$PROJECT_DIR$/EduJava.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/My.iml" filepath="$PROJECT_DIR$/.idea/My.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/EduJava.iml" filepath="$PROJECT_DIR$/.idea/EduJava.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/EduJava.iml" filepath="$PROJECT_DIR$/.idea/EduJava.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../GitHub/EduJava/EduJava.iml" filepath="$PROJECT_DIR$/../GitHub/EduJava/EduJava.iml" />
     </modules>
   </component>
 </project>

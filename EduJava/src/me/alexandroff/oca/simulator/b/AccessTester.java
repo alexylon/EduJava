@@ -4,6 +4,7 @@ package me.alexandroff.oca.simulator.b;
 public class AccessTest {
     int a;
     private int b;
+    protected int c;
 
     public AccessTest() {
     }
