@@ -53,11 +53,11 @@ class SubExceptionChecked extends ExceptionChecked {
 
     //public static void m2() throws Exception {} - NO
     //public void m4() throws MyException{} - NO
-    // No new or super-exceptions
+    // No new CHECKED or super-exceptions
     // If the super-method throws a checked exception
-    // Overriden methods may throw the same exception,
-    // a sub-exception or not throw anything at all.
-    // They CANNOT throw a new exception or a super-exception
+    // overriden methods may throw the same exception,
+    // a sub-exception, any RUNTIME exception or not throw anything at all.
+    // They CANNOT throw a new CHECKED exception or a super-exception.
 
     // BUT
 
