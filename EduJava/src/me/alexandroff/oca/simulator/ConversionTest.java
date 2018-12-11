@@ -45,7 +45,8 @@ public class ConversionTest {
         shortVar = byteVar;
         shortVar = (short) charVar; // !!!
         shortVar = (short) intVar;
-        shortVar = INTVAR; // !!!
+        shortVar = INTVAR;
+        // !!!
         //Implicit narrowing occurs only for
         // 'final' byte, char, short, and int
 
@@ -63,8 +64,11 @@ public class ConversionTest {
 
         float value1 = 102;
         float value2 = (int) 102.0;
-        //float value3 = 1f * 0.0; - Incompatible types
+        //float value3 = 1f * 0.0;
+        // Incompatible types, '0.0' is 'double'
         float value4 = 1f * (short) 0.0;
         //float value5 = 1f * (boolean)0; - Incompatible types
+        //short value6 = shortVar * 2;
+        //'value6' becomes 'int'
     }
 }
