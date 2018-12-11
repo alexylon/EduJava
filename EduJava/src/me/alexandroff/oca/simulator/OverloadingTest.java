@@ -5,8 +5,9 @@ public class OverloadingTest {
         System.out.println("String");
     }
 
-    static void method1(Object obj) {
+    static int method1(Object obj) {
         System.out.println("Object");
+        return 1;
     }
 
     static void method2(int intVar) {
