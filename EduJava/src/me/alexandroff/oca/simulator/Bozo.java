@@ -27,5 +27,6 @@ class Type1Bozo implements Bozo {
 
         Type1Bozo b = new Type1Bozo();
         b.jump();
+        // jumping...0
     }
 }
