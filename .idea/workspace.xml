@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="57587dbd-72ff-48a7-992f-79282308fe3c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/EduJava/src/me/alexandroff/oca/simulator/SwitchTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EduJava/src/me/alexandroff/oca/simulator/IntAbstrClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EduJava/src/me/alexandroff/oca/simulator/TernaryTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -41,11 +42,29 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/EduJava/src/me/alexandroff/oca/simulator/SwitchTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="43" lean-forward="true" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
+            <state relative-caret-position="105">
+              <caret line="7" column="23" lean-forward="true" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/EduJava/src/me/alexandroff/oca/simulator/IntAbstrClass.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="36" lean-forward="true" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/EduJava/src/me/alexandroff/oca/simulator/TernaryTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -85,6 +104,8 @@
         <option value="$PROJECT_DIR$/EduJava/src/me/alexandroff/oca/simulator/ExceptionCatches.java" />
         <option value="$PROJECT_DIR$/EduJava/src/me/alexandroff/oca/simulator/Bozo.java" />
         <option value="$PROJECT_DIR$/EduJava/src/me/alexandroff/oca/simulator/SwitchTest.java" />
+        <option value="$PROJECT_DIR$/EduJava/src/me/alexandroff/oca/simulator/IntAbstrClass.java" />
+        <option value="$PROJECT_DIR$/EduJava/src/me/alexandroff/oca/simulator/TernaryTest.java" />
       </list>
     </option>
   </component>
@@ -96,8 +117,8 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
-    <option name="width" value="1680" />
-    <option name="height" value="972" />
+    <option name="width" value="1097" />
+    <option name="height" value="1003" />
   </component>
   <component name="ProjectLevelVcsManager">
     <OptionsSetting value="false" id="Update" />
@@ -108,6 +129,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -148,6 +170,15 @@
               <item name="alexandroff" type="462c0819:PsiDirectoryNode" />
               <item name="oca" type="462c0819:PsiDirectoryNode" />
               <item name="simulator" type="462c0819:PsiDirectoryNode" />
+              <item name="AbstractClasses.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
+            <path>
+              <item name="EduJava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EduJava" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="alexandroff" type="462c0819:PsiDirectoryNode" />
+              <item name="oca" type="462c0819:PsiDirectoryNode" />
+              <item name="simulator" type="462c0819:PsiDirectoryNode" />
               <item name="Animal.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </path>
             <path>
@@ -173,7 +204,6 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -271,7 +301,8 @@
       <workItem from="1544279206512" duration="900000" />
       <workItem from="1546280240158" duration="380000" />
       <workItem from="1546281062554" duration="1047000" />
-      <workItem from="1546781512123" duration="270000" />
+      <workItem from="1546781512123" duration="296000" />
+      <workItem from="1546792337055" duration="2043000" />
     </task>
     <task id="LOCAL-00001" summary="MacBook">
       <created>1542483796296</created>
@@ -322,17 +353,24 @@
       <option name="project" value="LOCAL" />
       <updated>1546305546666</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="MacBook">
+      <created>1546781806835</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1546781806835</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6530000" />
+    <option name="totallyTimeSpent" value="8599000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1680" height="972" extended-state="1" />
+    <frame x="0" y="23" width="1097" height="1003" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22483423" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29275092" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -341,7 +379,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49849308" visible="true" weight="0.3272727" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49849308" visible="true" weight="0.31613612" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -454,13 +492,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/EduJava/src/me/alexandroff/oca/simulator/ExceptionCatches.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="70" selection-start-line="11" selection-start-column="70" selection-end-line="11" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/EduJava/src/me/alexandroff/oca/simulator/Bozo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
@@ -468,10 +499,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/EduJava/src/me/alexandroff/oca/simulator/ExceptionCatches.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="70" selection-start-line="11" selection-start-column="70" selection-end-line="11" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/EduJava/src/me/alexandroff/oca/simulator/SwitchTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="43" lean-forward="true" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
+        <state relative-caret-position="105">
+          <caret line="7" column="23" lean-forward="true" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EduJava/src/me/alexandroff/oca/simulator/TernaryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EduJava/src/me/alexandroff/oca/simulator/IntAbstrClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="36" lean-forward="true" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
         </state>
       </provider>
     </entry>
