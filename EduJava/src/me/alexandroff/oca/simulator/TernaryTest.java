@@ -7,5 +7,8 @@ public class TernaryTest {
         // String result = 10 > 100 ? lion : tiger = "Timur";
         // NO, it is the same as String result = (10 > 100 ? lion : tiger) = "Timur";
         // but (10 > 100 ? lion : tiger) is not a variable
+
+        String result = 10 > 100 ? lion : (tiger = "Timur"); // OK
+        System.out.println(result);
     }
 }
