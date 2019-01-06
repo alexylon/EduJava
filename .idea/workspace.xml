@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="57587dbd-72ff-48a7-992f-79282308fe3c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/EduJava/src/me/alexandroff/oca/simulator/IntAbstrClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EduJava/src/me/alexandroff/oca/simulator/TernaryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EduJava/src/me/alexandroff/oca/simulator/A1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -51,7 +50,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/EduJava/src/me/alexandroff/oca/simulator/IntAbstrClass.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="225">
@@ -63,8 +62,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/EduJava/src/me/alexandroff/oca/simulator/TernaryTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+            <state relative-caret-position="165">
+              <caret line="11" column="35" lean-forward="true" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/EduJava/src/me/alexandroff/oca/simulator/A1.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="19" column="18" lean-forward="true" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+              <folding>
+                <element signature="e#104#105#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -106,6 +117,8 @@
         <option value="$PROJECT_DIR$/EduJava/src/me/alexandroff/oca/simulator/SwitchTest.java" />
         <option value="$PROJECT_DIR$/EduJava/src/me/alexandroff/oca/simulator/IntAbstrClass.java" />
         <option value="$PROJECT_DIR$/EduJava/src/me/alexandroff/oca/simulator/TernaryTest.java" />
+        <option value="$PROJECT_DIR$/EduJava/src/me/alexandroff/oca/simulator/А1.java" />
+        <option value="$PROJECT_DIR$/EduJava/src/me/alexandroff/oca/simulator/A1.java" />
       </list>
     </option>
   </component>
@@ -170,34 +183,7 @@
               <item name="alexandroff" type="462c0819:PsiDirectoryNode" />
               <item name="oca" type="462c0819:PsiDirectoryNode" />
               <item name="simulator" type="462c0819:PsiDirectoryNode" />
-              <item name="AbstractClasses.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </path>
-            <path>
-              <item name="EduJava" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EduJava" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="alexandroff" type="462c0819:PsiDirectoryNode" />
-              <item name="oca" type="462c0819:PsiDirectoryNode" />
-              <item name="simulator" type="462c0819:PsiDirectoryNode" />
-              <item name="Animal.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </path>
-            <path>
-              <item name="EduJava" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EduJava" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="alexandroff" type="462c0819:PsiDirectoryNode" />
-              <item name="oca" type="462c0819:PsiDirectoryNode" />
-              <item name="simulator" type="462c0819:PsiDirectoryNode" />
-              <item name="Bozo.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </path>
-            <path>
-              <item name="EduJava" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EduJava" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="alexandroff" type="462c0819:PsiDirectoryNode" />
-              <item name="oca" type="462c0819:PsiDirectoryNode" />
-              <item name="simulator" type="462c0819:PsiDirectoryNode" />
-              <item name="ExceptionChecked.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+              <item name="A1.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </path>
           </expand>
           <select />
@@ -227,9 +213,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SwitchTest">
-    <configuration name="ClassTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="me.alexandroff.oca.simulator.ClassTest" />
+  <component name="RunManager" selected="Application.B1">
+    <configuration name="B1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="me.alexandroff.oca.simulator.B1" />
       <module name="EduJava" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -242,15 +228,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OverloadingTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="me.alexandroff.oca.simulator.OverloadingTest" />
+    <configuration name="SwitchTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="me.alexandroff.oca.simulator.SwitchTest" />
       <module name="EduJava" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SwitchTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="me.alexandroff.oca.simulator.SwitchTest" />
+    <configuration name="TernaryTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="me.alexandroff.oca.simulator.TernaryTest" />
       <module name="EduJava" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -264,19 +250,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.ClassTest" />
-      <item itemvalue="Application.OverloadingTest" />
       <item itemvalue="Application.ExceptionCatches" />
       <item itemvalue="Application.Type1Bozo" />
       <item itemvalue="Application.SwitchTest" />
+      <item itemvalue="Application.TernaryTest" />
+      <item itemvalue="Application.B1" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.B1" />
+        <item itemvalue="Application.TernaryTest" />
         <item itemvalue="Application.SwitchTest" />
         <item itemvalue="Application.Type1Bozo" />
         <item itemvalue="Application.ExceptionCatches" />
-        <item itemvalue="Application.OverloadingTest" />
-        <item itemvalue="Application.ClassTest" />
       </list>
     </recent_temporary>
   </component>
@@ -302,7 +288,7 @@
       <workItem from="1546280240158" duration="380000" />
       <workItem from="1546281062554" duration="1047000" />
       <workItem from="1546781512123" duration="296000" />
-      <workItem from="1546792337055" duration="2043000" />
+      <workItem from="1546792337055" duration="4538000" />
     </task>
     <task id="LOCAL-00001" summary="MacBook">
       <created>1542483796296</created>
@@ -360,11 +346,25 @@
       <option name="project" value="LOCAL" />
       <updated>1546781806835</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="MacBook">
+      <created>1546797531613</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1546797531613</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Mac Mini">
+      <created>1546797696448</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1546797696448</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8599000" />
+    <option name="totallyTimeSpent" value="11094000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1097" height="1003" extended-state="0" />
@@ -388,7 +388,7 @@
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5015069" side_tool="true" weight="0.3272727" />
       <window_info anchor="bottom" id="Version Control" order="10" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.32954547" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32930845" />
       <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -406,7 +406,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="MacBook" />
-    <option name="LAST_COMMIT_MESSAGE" value="MacBook" />
+    <MESSAGE value="Mac Mini" />
+    <option name="LAST_COMMIT_MESSAGE" value="Mac Mini" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/EduJava/src/me/alexandroff/oca/simulator/Test15" />
@@ -513,17 +514,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/EduJava/src/me/alexandroff/oca/simulator/TernaryTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/EduJava/src/me/alexandroff/oca/simulator/IntAbstrClass.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="15" column="36" lean-forward="true" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EduJava/src/me/alexandroff/oca/simulator/TernaryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="35" lean-forward="true" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EduJava/src/me/alexandroff/oca/simulator/A1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="18" lean-forward="true" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+          <folding>
+            <element signature="e#104#105#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
