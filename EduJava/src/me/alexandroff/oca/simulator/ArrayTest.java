@@ -12,5 +12,8 @@ public class ArrayTest {
             System.out.println(arrStr[i]);
         }
 
+        int[] arr = new int[3];
+        int a = arr[0];
+        System.out.println(a);
     }
 }
