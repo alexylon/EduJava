@@ -17,5 +17,6 @@ public class Insert {
         char[] name = {'J', 'a', 'v', 'a'};
         sb3.insert(1, name, 1, 3); // Inserts "ava" !!!
         System.out.println(sb3);
+
     }
 }

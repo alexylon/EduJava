@@ -1,6 +1,8 @@
 package me.alexandroff.oca.simulator;
 
 public class Test21 {
+    private Test21(Test21 t) {}
+
     public static void main(String args[]) {
         int counter = 0;
         outer:
@@ -19,6 +21,6 @@ public class Test21 {
                 }
             }
         }
-        System.out.println(counter);
+        System.out.println("counter = " + counter);
     }
 }

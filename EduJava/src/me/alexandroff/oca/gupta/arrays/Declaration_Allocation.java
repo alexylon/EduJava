@@ -37,5 +37,9 @@ public class Declaration_Allocation {
         int[] multiArray5[] = new int[5][10]; // !!! 2D array;
         int[][] array2 = new int[][]{{1, 2, 3}, {}, {1, 2, 3, 4, 5}}; // !!! OK
         int[][] array3 = {{1, 2, 3}, {}, {1, 2, 3, 4, 5}};
+
+        String[] str = {};
+        //assigns a valid String[] object of length 0 to str
+        int[] ints = {};
     }
 }
