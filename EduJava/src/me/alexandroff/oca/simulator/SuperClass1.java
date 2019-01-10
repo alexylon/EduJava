@@ -18,5 +18,6 @@ class SubClass1 extends SuperClass1 {
 
     public SubClass1(int m) {
         super(m);
-    } //SuperClass1(int m) is required in class SuperClass1
+    }
+    //SuperClass1(int m) is required in class SuperClass1
 }
