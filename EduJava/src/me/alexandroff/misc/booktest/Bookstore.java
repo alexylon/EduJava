@@ -1,4 +1,4 @@
-package me.alexandroff.booktest;
+package me.alexandroff.misc.booktest;
 
 public class Bookstore {
 

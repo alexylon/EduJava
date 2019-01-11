@@ -1,4 +1,4 @@
-package me.alexandroff.accountex;
+package me.alexandroff.misc.accountex;
 
 public class Test {
 

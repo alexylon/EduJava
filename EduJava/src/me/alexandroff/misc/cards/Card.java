@@ -1,4 +1,4 @@
-package me.alexandroff.cards;
+package me.alexandroff.misc.cards;
 
 public class Card {
 
