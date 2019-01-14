@@ -1,4 +1,4 @@
-package me.alexandroff.oca.simulator;
+package me.alexandroff.oca.practice;
 
 class SuperClass1 {
     SuperClass1(int m) {

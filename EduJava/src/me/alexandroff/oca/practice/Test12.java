@@ -1,9 +1,6 @@
-package me.alexandroff.oca.simulator;
+package me.alexandroff.oca.practice;
 
 import java.util.ArrayList;
-
-import java.util.Date;
-import java.sql.*;
 
 public class Test12 {
 

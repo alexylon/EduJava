@@ -1,4 +1,4 @@
-package me.alexandroff.oca.simulator;
+package me.alexandroff.oca.practice;
 
 class Super {  }
 class Sub extends Super {  }

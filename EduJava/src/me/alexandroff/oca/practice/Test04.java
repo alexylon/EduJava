@@ -1,4 +1,4 @@
-package me.alexandroff.oca.simulator;
+package me.alexandroff.oca.practice;
 
 class TestClass4 {
     public static void main(String[] args) throws Exception {

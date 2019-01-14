@@ -1,4 +1,4 @@
-package me.alexandroff.oca.simulator;
+package me.alexandroff.oca.practice;
 
 public class VarargTest {
     public static void main(String[] args) {

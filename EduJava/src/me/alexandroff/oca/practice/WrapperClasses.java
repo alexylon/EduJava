@@ -1,5 +1,5 @@
 // !!!
-package me.alexandroff.oca.simulator;
+package me.alexandroff.oca.practice;
 
 import java.util.*;
 
