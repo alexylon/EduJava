@@ -77,3 +77,21 @@ class TestAnimal {
         System.out.println(cat1.whatIsThis());
     }
 }
+
+//1. Abstract class doesn't necessarily have to have an abstract method
+// but if a class has an abstract method, it must be declared abstract.
+// In other words, a concrete class cannot have an abstract method.
+
+//2. An abstract class cannot be instantiated irrespective of whether
+// it has an abstract method or not.
+
+//3. A final class or a final method cannot be abstract.
+
+//4. A final class cannot contain an abstract method
+// but an abstract class may contain a final method.
+
+//5. A private method is always final.
+
+//6. A private method can never be abstract.
+
+//7. A static method can be final but can never be abstract.

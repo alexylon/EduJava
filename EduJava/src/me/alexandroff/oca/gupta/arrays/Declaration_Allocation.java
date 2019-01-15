@@ -41,5 +41,13 @@ public class Declaration_Allocation {
         String[] str = {};
         //assigns a valid String[] object of length 0 to str
         int[] ints = {};
+
+        int[] intArr;
+        //intArr = {1, 2, 3};
+        // Array initializer is NOT allowed in this way
+
+        //!!! You cannot change the number of elements that this array can have.
+        //If you want a different size you must create a new array
+
     }
 }

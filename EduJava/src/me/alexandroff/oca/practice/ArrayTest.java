@@ -2,18 +2,21 @@ package me.alexandroff.oca.practice;
 
 public class ArrayTest {
     public static void main(String[] args) {
-        int[] arrInt = new int[3];
-        for (int e : arrInt) {
-            System.out.println(e);
+        //String[] arrStr = {1, 2, 3};
+        // NO ints to String
+
+        int[] intArr;
+        //intArr = {1, 2, 3};
+        // Array initializer is NOT allowed in this way
+
+        args[0] = "Alex";
+        //ArrayIndexOutOfBoundsException. 'args' is with length 0
+        args[1] = "Katia";
+
+        for (String str : args) {
+            System.out.println(str);
         }
 
-        String[] arrStr = new String[3];
-        for (int i = 0; i < arrStr.length; i++) {
-            System.out.println(arrStr[i]);
-        }
 
-        int[] arr = new int[3];
-        int a = arr[0];
-        System.out.println(a);
     }
 }
