@@ -17,6 +17,10 @@ public class Test24 {
             //System.out.println("Katia");
             //Unreachable statement
         }
+
+        int x = 5;
+        System.out.println(5 | x++);
+        System.out.println(x);
     }
 
     void method(java.io.IOException e) {
