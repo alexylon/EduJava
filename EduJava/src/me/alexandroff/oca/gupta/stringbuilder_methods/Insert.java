@@ -1,5 +1,7 @@
 package me.alexandroff.oca.gupta.stringbuilder_methods;
 
+// String DOES NOT have method 'insert'
+
 public class Insert {
 
     public static void main(String[] args) {

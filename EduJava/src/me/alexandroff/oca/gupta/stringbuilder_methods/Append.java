@@ -2,12 +2,12 @@ package me.alexandroff.oca.gupta.stringbuilder_methods;
 
 public class Append {
 
-    public static void main (String[] args) {
+    public static void main(String[] args) {
 
         StringBuilder sb1 = new StringBuilder();
         sb1.append("Alexander");
         sb1.append('K');
-        sb1.append(1972);
+        sb1.append(1972.0);
         sb1.append(true);
         System.out.println(sb1);
 
@@ -24,6 +24,11 @@ public class Append {
         char[] name = {'J', 'a', 'v', 'a', '8'};
         sb4.append(name, 1, 3);
         System.out.println("sb4: " + sb4);
+
+        StringBuilder sb6 = new StringBuilder("012345");
+        String str6 = "NUM";
+        sb6.append(str6, 0, 1);
+        System.out.println("sb6: " + sb6);
 
         StringBuilder sb5 = new StringBuilder("012345");
         sb5.append(false);
