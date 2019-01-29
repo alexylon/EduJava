@@ -2,12 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="57587dbd-72ff-48a7-992f-79282308fe3c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/EduJava/src/me/alexandroff/oca/practice/ArgsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EduJava/src/me/alexandroff/oca/practice/Doll.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EduJava/src/me/alexandroff/oca/practice/SequenceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EduJava/src/me/alexandroff/oca/practice/StringTest2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EduJava/src/me/alexandroff/oca/practice/Test24.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EduJava/src/me/alexandroff/oca/gupta/stringbuilder_methods/CharAt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EduJava/src/me/alexandroff/oca/gupta/stringbuilder_methods/IndexOf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EduJava/src/me/alexandroff/oca/gupta/stringbuilder_methods/Length.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EduJava/src/me/alexandroff/oca/practice/InheritanceImportant2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EduJava/src/me/alexandroff/oca/gupta/string_methods/Concat.java" beforeDir="false" afterPath="$PROJECT_DIR$/EduJava/src/me/alexandroff/oca/gupta/string_methods/Concat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EduJava/src/me/alexandroff/oca/gupta/stringbuilder_methods/Append.java" beforeDir="false" afterPath="$PROJECT_DIR$/EduJava/src/me/alexandroff/oca/gupta/stringbuilder_methods/Append.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EduJava/src/me/alexandroff/oca/gupta/stringbuilder_methods/Insert.java" beforeDir="false" afterPath="$PROJECT_DIR$/EduJava/src/me/alexandroff/oca/gupta/stringbuilder_methods/Insert.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EduJava/src/me/alexandroff/oca/gupta/stringbuilder_methods/Replace.java" beforeDir="false" afterPath="$PROJECT_DIR$/EduJava/src/me/alexandroff/oca/gupta/stringbuilder_methods/Replace.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EduJava/src/me/alexandroff/oca/gupta/stringbuilder_methods/Substring_SubSequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/EduJava/src/me/alexandroff/oca/gupta/stringbuilder_methods/Substring_SubSequence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EduJava/src/me/alexandroff/oca/practice/EqualityTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/EduJava/src/me/alexandroff/oca/practice/EqualityTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EduJava/src/me/alexandroff/oca/practice/ExceptionImportant.java" beforeDir="false" afterPath="$PROJECT_DIR$/EduJava/src/me/alexandroff/oca/practice/ExceptionImportant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EduJava/src/me/alexandroff/oca/practice/InheritanceImportant.java" beforeDir="false" afterPath="$PROJECT_DIR$/EduJava/src/me/alexandroff/oca/practice/InheritanceImportant.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -38,22 +45,30 @@
     <session id="-1588226187">
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="7" />
+          <entry key="java" value="37" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="7" />
+          <entry key="JAVA" value="37" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="594" />
+          <entry key="java" value="2674" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="594" />
+          <entry key="JAVA" value="2674" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.47" value="1" />
+          <entry key="project.open.time.78" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
     </session>
@@ -61,86 +76,107 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/EduJava/src/me/alexandroff/oca/practice/StringTest2.java">
+        <entry file="file://$PROJECT_DIR$/EduJava/src/me/alexandroff/oca/gupta/stringbuilder_methods/Append.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="42" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
+            <state relative-caret-position="73">
+              <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/EduJava/src/me/alexandroff/oca/gupta/stringbuilder_methods/Insert.java">
+        <entry file="file://$PROJECT_DIR$/EduJava/src/me/alexandroff/oca/practice/ExceptionImportant.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+            <state relative-caret-position="85">
+              <caret line="5" column="39" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="39" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/EduJava/src/me/alexandroff/oca/practice/Test24.java">
+        <entry file="file://$PROJECT_DIR$/EduJava/src/me/alexandroff/oca/gupta/stringbuilder_methods/Insert.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="23" lean-forward="true" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+            <state relative-caret-position="68">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/EduJava/src/me/alexandroff/oca/practice/InheritanceImportant.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="842">
+              <caret line="66" column="16" selection-start-line="66" selection-start-column="16" selection-end-line="66" selection-end-column="16" />
               <folding>
-                <element signature="e#440#441#0" expanded="true" />
-                <element signature="e#476#477#0" expanded="true" />
-                <element signature="e#474#475#0" expanded="true" />
-                <element signature="e#510#511#0" expanded="true" />
+                <element signature="e#129#130#0" expanded="true" />
+                <element signature="e#182#183#0" expanded="true" />
+                <element signature="e#416#417#0" expanded="true" />
+                <element signature="e#471#472#0" expanded="true" />
+                <element signature="e#626#627#0" expanded="true" />
+                <element signature="e#681#682#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/EduJava/src/me/alexandroff/oca/gupta/stringbuilder_methods/Append.java">
+        <entry file="file://$PROJECT_DIR$/EduJava/src/me/alexandroff/oca/gupta/calendar/Date_Time_Formatter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="25" column="42" lean-forward="true" selection-start-line="22" selection-start-column="8" selection-end-line="25" selection-end-column="42" />
+            <state relative-caret-position="63">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/EduJava/src/me/alexandroff/oca/practice/SequenceTest.java">
+        <entry file="file://$PROJECT_DIR$/EduJava/src/me/alexandroff/oca/practice/InheritanceImportant2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="21" lean-forward="true" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+            <state relative-caret-position="196">
+              <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
               <folding>
-                <element signature="e#96#97#0" expanded="true" />
-                <element signature="e#133#134#0" expanded="true" />
+                <element signature="e#109#110#0" expanded="true" />
+                <element signature="e#159#160#0" expanded="true" />
+                <element signature="e#312#313#0" expanded="true" />
+                <element signature="e#363#364#0" expanded="true" />
+                <element signature="e#393#394#0" expanded="true" />
+                <element signature="e#446#447#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/EduJava/src/me/alexandroff/oca/practice/ArgsTest.java">
+        <entry file="file://$PROJECT_DIR$/EduJava/src/me/alexandroff/oca/gupta/calendar/Period_Test.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-119">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/EduJava/src/me/alexandroff/oca/gupta/calendar/Local_Date.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/EduJava/src/me/alexandroff/oca/gupta/calendar/Local_Time.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/EduJava/src/me/alexandroff/oca/practice/ConstructorTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="34">
-              <caret line="2" column="34" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
-              <folding>
-                <element signature="e#104#105#0" expanded="true" />
-                <element signature="e#150#151#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/EduJava/src/me/alexandroff/oca/practice/Doll.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="22" lean-forward="true" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
-              <folding>
-                <element signature="e#95#96#0" expanded="true" />
-                <element signature="e#124#125#0" expanded="true" />
-                <element signature="e#181#182#0" expanded="true" />
-                <element signature="e#208#209#0" expanded="true" />
-                <element signature="e#241#242#0" expanded="true" />
-                <element signature="e#269#270#0" expanded="true" />
-              </folding>
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -181,6 +217,19 @@
         <option value="$PROJECT_DIR$/EduJava/src/me/alexandroff/oca/practice/Doll.java" />
         <option value="$PROJECT_DIR$/EduJava/src/me/alexandroff/oca/practice/StringTest2.java" />
         <option value="$PROJECT_DIR$/EduJava/src/me/alexandroff/oca/practice/Test24.java" />
+        <option value="$PROJECT_DIR$/EduJava/src/me/alexandroff/oca/practice/EqualityTest.java" />
+        <option value="$PROJECT_DIR$/EduJava/src/me/alexandroff/oca/gupta/string_methods/Concat.java" />
+        <option value="$PROJECT_DIR$/EduJava/src/me/alexandroff/oca/gupta/stringbuilder_methods/IndexOf.java" />
+        <option value="$PROJECT_DIR$/EduJava/src/me/alexandroff/oca/gupta/stringbuilder_methods/CharAt.java" />
+        <option value="$PROJECT_DIR$/EduJava/src/me/alexandroff/oca/gupta/stringbuilder_methods/Length.java" />
+        <option value="$PROJECT_DIR$/EduJava/src/me/alexandroff/oca/gupta/stringbuilder_methods/Substring_SubSequence.java" />
+        <option value="$PROJECT_DIR$/EduJava/src/me/alexandroff/oca/gupta/stringbuilder_methods/Insert.java" />
+        <option value="$PROJECT_DIR$/EduJava/src/me/alexandroff/oca/gupta/stringbuilder_methods/Replace.java" />
+        <option value="$PROJECT_DIR$/EduJava/src/me/alexandroff/oca/practice/ExceptionImportant.java" />
+        <option value="$PROJECT_DIR$/EduJava/src/me/alexandroff/oca/practice/ConversionTest.java" />
+        <option value="$PROJECT_DIR$/EduJava/src/me/alexandroff/oca/practice/InheritanceImportant2.java" />
+        <option value="$PROJECT_DIR$/EduJava/src/me/alexandroff/oca/practice/InheritanceImportant.java" />
+        <option value="$PROJECT_DIR$/EduJava/src/me/alexandroff/oca/gupta/stringbuilder_methods/Append.java" />
       </list>
     </option>
   </component>
@@ -204,8 +253,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -246,6 +295,15 @@
               <item name="alexandroff" type="462c0819:PsiDirectoryNode" />
               <item name="oca" type="462c0819:PsiDirectoryNode" />
               <item name="gupta" type="462c0819:PsiDirectoryNode" />
+              <item name="string_methods" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EduJava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EduJava" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="alexandroff" type="462c0819:PsiDirectoryNode" />
+              <item name="oca" type="462c0819:PsiDirectoryNode" />
+              <item name="gupta" type="462c0819:PsiDirectoryNode" />
               <item name="stringbuilder_methods" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -255,6 +313,42 @@
               <item name="alexandroff" type="462c0819:PsiDirectoryNode" />
               <item name="oca" type="462c0819:PsiDirectoryNode" />
               <item name="practice" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EduJava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EduJava" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="alexandroff" type="462c0819:PsiDirectoryNode" />
+              <item name="oca" type="462c0819:PsiDirectoryNode" />
+              <item name="practice" type="462c0819:PsiDirectoryNode" />
+              <item name="ConstructorTest.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
+            <path>
+              <item name="EduJava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EduJava" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="alexandroff" type="462c0819:PsiDirectoryNode" />
+              <item name="oca" type="462c0819:PsiDirectoryNode" />
+              <item name="practice" type="462c0819:PsiDirectoryNode" />
+              <item name="ExceptionImportant.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
+            <path>
+              <item name="EduJava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EduJava" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="alexandroff" type="462c0819:PsiDirectoryNode" />
+              <item name="oca" type="462c0819:PsiDirectoryNode" />
+              <item name="practice" type="462c0819:PsiDirectoryNode" />
+              <item name="InheritanceImportant.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
+            <path>
+              <item name="EduJava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EduJava" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="alexandroff" type="462c0819:PsiDirectoryNode" />
+              <item name="oca" type="462c0819:PsiDirectoryNode" />
+              <item name="practice" type="462c0819:PsiDirectoryNode" />
+              <item name="InheritanceImportant2.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </path>
           </expand>
           <select />
@@ -284,9 +378,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Test24">
-    <configuration name="B5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="me.alexandroff.oca.practice.B5" />
+  <component name="RunManager" selected="Application.Append">
+    <configuration name="Append" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="me.alexandroff.oca.gupta.stringbuilder_methods.Append" />
       <module name="EduJava" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -299,47 +393,41 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringTest2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="me.alexandroff.oca.practice.StringTest2" />
+    <configuration name="Tester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="me.alexandroff.oca.practice.Tester" />
       <module name="EduJava" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test21" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="me.alexandroff.oca.simulator.Test21" />
+    <configuration name="Third" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="me.alexandroff.oca.practice.Third" />
       <module name="EduJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="me.alexandroff.oca.simulator.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test24" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="me.alexandroff.oca.practice.Test24" />
+    <configuration name="YYY" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="me.alexandroff.oca.practice.YYY" />
       <module name="EduJava" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Test21" />
-      <item itemvalue="Application.StringTest2" />
-      <item itemvalue="Application.B5" />
+      <item itemvalue="Application.Append" />
+      <item itemvalue="Application.YYY" />
+      <item itemvalue="Application.Third" />
+      <item itemvalue="Application.Tester" />
       <item itemvalue="Application.Insert" />
-      <item itemvalue="Application.Test24" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Test24" />
+        <item itemvalue="Application.Append" />
         <item itemvalue="Application.Insert" />
-        <item itemvalue="Application.StringTest2" />
-        <item itemvalue="Application.B5" />
-        <item itemvalue="Application.Test21" />
+        <item itemvalue="Application.Tester" />
+        <item itemvalue="Application.Third" />
+        <item itemvalue="Application.YYY" />
       </list>
     </recent_temporary>
   </component>
@@ -367,6 +455,8 @@
       <workItem from="1546781512123" duration="296000" />
       <workItem from="1546792337055" duration="4538000" />
       <workItem from="1546946450730" duration="312000" />
+      <workItem from="1548591861910" duration="3077000" />
+      <workItem from="1548647040050" duration="2362000" />
     </task>
     <task id="LOCAL-00001" summary="MacBook">
       <created>1542483796296</created>
@@ -438,17 +528,24 @@
       <option name="project" value="LOCAL" />
       <updated>1546797696448</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Mac Mini">
+      <created>1547908244019</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1547908244020</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17333000" />
+    <option name="totallyTimeSpent" value="28654000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="972" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22771673" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23260073" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -457,7 +554,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49849308" visible="true" weight="0.31477273" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49849308" visible="true" weight="0.31477273" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3991276" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -520,15 +617,7 @@
     <entry file="file://$PROJECT_DIR$/EduJava/src/me/alexandroff/oca/practice/Doll.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
-          <caret line="14" column="22" lean-forward="true" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
-          <folding>
-            <element signature="e#95#96#0" expanded="true" />
-            <element signature="e#124#125#0" expanded="true" />
-            <element signature="e#181#182#0" expanded="true" />
-            <element signature="e#208#209#0" expanded="true" />
-            <element signature="e#241#242#0" expanded="true" />
-            <element signature="e#269#270#0" expanded="true" />
-          </folding>
+          <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -536,28 +625,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="34" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
-          <folding>
-            <element signature="e#104#105#0" expanded="true" />
-            <element signature="e#150#151#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/EduJava/src/me/alexandroff/oca/practice/SequenceTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
-          <caret line="14" column="21" lean-forward="true" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
-          <folding>
-            <element signature="e#96#97#0" expanded="true" />
-            <element signature="e#133#134#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/EduJava/src/me/alexandroff/oca/gupta/stringbuilder_methods/Append.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="25" column="42" lean-forward="true" selection-start-line="22" selection-start-column="8" selection-end-line="25" selection-end-column="42" />
+          <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -568,23 +642,201 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/EduJava/src/me/alexandroff/oca/gupta/stringbuilder_methods/Insert.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/EduJava/src/me/alexandroff/oca/practice/Test24.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
-          <caret line="6" column="23" lean-forward="true" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+          <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EduJava/src/me/alexandroff/oca/practice/EqualityTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="354">
+          <caret line="51" column="23" lean-forward="true" selection-start-line="51" selection-start-column="23" selection-end-line="51" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EduJava/src/me/alexandroff/oca/gupta/string_methods/IndexOf.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EduJava/src/me/alexandroff/oca/gupta/string_methods/Operators.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EduJava/src/me/alexandroff/oca/gupta/string_methods/StartsWith_EndsWith.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EduJava/src/me/alexandroff/oca/gupta/string_methods/Replace.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EduJava/src/me/alexandroff/oca/gupta/string_methods/Concat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="57" lean-forward="true" selection-start-line="13" selection-start-column="57" selection-end-line="13" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EduJava/src/me/alexandroff/oca/gupta/stringbuilder_methods/Delete_DeleteCharAt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EduJava/src/me/alexandroff/oca/gupta/string_methods/CharAt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EduJava/src/me/alexandroff/oca/gupta/stringbuilder_methods/IndexOf.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EduJava/src/me/alexandroff/oca/gupta/stringbuilder_methods/Replace.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EduJava/src/me/alexandroff/oca/gupta/stringbuilder_methods/CharAt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EduJava/src/me/alexandroff/oca/gupta/stringbuilder_methods/StringBuilder_Methods_Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EduJava/src/me/alexandroff/oca/gupta/stringbuilder_methods/Substring_SubSequence.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="36" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EduJava/src/me/alexandroff/oca/gupta/stringbuilder_methods/Length.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EduJava/src/me/alexandroff/oca/practice/ConversionTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EduJava/src/me/alexandroff/oca/practice/ConstructorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EduJava/src/me/alexandroff/oca/gupta/calendar/Date_Time_Formatter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EduJava/src/me/alexandroff/oca/gupta/calendar/Period_Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-119">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EduJava/src/me/alexandroff/oca/gupta/calendar/Local_Date.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EduJava/src/me/alexandroff/oca/gupta/calendar/Local_Time.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EduJava/src/me/alexandroff/oca/practice/ExceptionImportant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="39" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EduJava/src/me/alexandroff/oca/practice/InheritanceImportant2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
           <folding>
-            <element signature="e#440#441#0" expanded="true" />
-            <element signature="e#476#477#0" expanded="true" />
-            <element signature="e#474#475#0" expanded="true" />
-            <element signature="e#510#511#0" expanded="true" />
+            <element signature="e#109#110#0" expanded="true" />
+            <element signature="e#159#160#0" expanded="true" />
+            <element signature="e#312#313#0" expanded="true" />
+            <element signature="e#363#364#0" expanded="true" />
+            <element signature="e#393#394#0" expanded="true" />
+            <element signature="e#446#447#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EduJava/src/me/alexandroff/oca/practice/InheritanceImportant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="842">
+          <caret line="66" column="16" selection-start-line="66" selection-start-column="16" selection-end-line="66" selection-end-column="16" />
+          <folding>
+            <element signature="e#129#130#0" expanded="true" />
+            <element signature="e#182#183#0" expanded="true" />
+            <element signature="e#416#417#0" expanded="true" />
+            <element signature="e#471#472#0" expanded="true" />
+            <element signature="e#626#627#0" expanded="true" />
+            <element signature="e#681#682#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EduJava/src/me/alexandroff/oca/gupta/stringbuilder_methods/Append.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="73">
+          <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EduJava/src/me/alexandroff/oca/gupta/stringbuilder_methods/Insert.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
         </state>
       </provider>
     </entry>

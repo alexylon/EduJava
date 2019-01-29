@@ -1,23 +1,30 @@
 package me.alexandroff.oca.practice;
 
+import java.io.IOException;
+
 class XXX {
-    public void m() throws Exception {
-        throw new Exception();
+    public void m() throws IOException {
+        throw new IOException();
     }
 }
 
 class YYY extends XXX {
     public void m() {
     }
+    //The overriding method may choose to throw the same or
+    //narrower, or not to throw at all checked exception
+    //While the caller method MUST throw the same
+    //or broader checked exception
 
     public static void main(String[] args) {
         YYY obj = new YYY();
-        /*
-        XXX obj = new YYY();
-        */
-        //If 'XXX' chosen as the refference variable type, then
-        //the 'main' method must throw the checked exception
+        XXX obj1 = new YYY();
         obj.m();
+        //obj1.m();
+        // - Unhandled exception
+        //If 'XXX' chosen as the refference variable type, then
+        //the 'main' method must throw or catch
+        // the same or broader checked exception
     }
 }
 
@@ -27,7 +34,7 @@ class YYY extends XXX {
 // Thus, the method m in YYY is valid.
 
 // 2. Whether a call needs to be wrapped in a try/catch
-// or whether the enclosing method requires a throws clause depends
+// or whether the enclosing (caller) method requires a throws clause depends
 // on the class of the reference and not the class of the actual object.
 // This is because it is the compiler that checks whether a call needs
 // to have exception handling and the compiler knows only about

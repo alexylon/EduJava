@@ -16,5 +16,6 @@ public class Replace {
         String rep1 = st1.replace("23", "ABCD");
         System.out.println(rep1);
         System.out.println(st1); //Immutable
+
     }
 }

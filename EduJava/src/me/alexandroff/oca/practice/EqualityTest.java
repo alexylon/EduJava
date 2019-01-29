@@ -47,9 +47,9 @@ public class EqualityTest {
             }
         System.out.println(count);
 
-        Integer int1 = 5;
-        Integer int2 = new Integer(5);
-        int int3 = 5;
+        Integer int1 = 500;
+        Integer int2 = new Integer(500);
+        int int3 = 500;
         System.out.println(int1 == int2); //false
         System.out.println(int1.equals(int2)); // !!! true
         System.out.println(int1.equals(int3)); // !!! true - auto-boxing
