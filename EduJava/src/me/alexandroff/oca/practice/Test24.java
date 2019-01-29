@@ -1,6 +1,7 @@
 package me.alexandroff.oca.practice;
 
 public class Test24 {
+    static char c;
     public static void main(String[] args) {
 
         Test24 t = new Test24();
@@ -21,6 +22,8 @@ public class Test24 {
         int x = 5;
         System.out.println(5 | x++);
         System.out.println(x);
+
+        System.out.println(c);
     }
 
     void method(java.io.IOException e) {
