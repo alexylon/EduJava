@@ -1,4 +1,4 @@
-package me.alexandroff.interview;
+package me.alexandroff.interview.sort;
 
 import java.util.*;
 

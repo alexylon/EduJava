@@ -1,8 +1,8 @@
-package me.alexandroff.interview;
+package me.alexandroff.interview.sort;
 
 import java.util.*;
 
-public class SortingStrings {
+public class ArraysSort {
     public static void main(String[] args) {
         final int[] numbers = {-3, -5, 1, 7, 4, -2};
         final int[] expected = {-5, -3, -2, 1, 4, 7};
