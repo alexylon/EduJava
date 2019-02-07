@@ -28,6 +28,7 @@ class SortByAge implements Comparator<Family> {
 
     @Override
     public int compare(Family o1, Family o2) {
+
         return o1.getAge() - o2.getAge();
     }
 }
@@ -35,6 +36,7 @@ class SortByAge implements Comparator<Family> {
 class SortByName implements Comparator<Family> {
     @Override
     public int compare(Family o1, Family o2) {
+
         return o1.getName().compareTo(o2.getName());
     }
 }

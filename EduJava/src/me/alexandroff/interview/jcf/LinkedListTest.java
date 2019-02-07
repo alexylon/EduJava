@@ -1,6 +1,7 @@
 package me.alexandroff.interview.jcf;
 
 import java.util.Collections;
+import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.List;
 
@@ -15,5 +16,10 @@ public class LinkedListTest {
         System.out.println(ll);
         Collections.sort(ll);
         System.out.println(ll);
+
+        Iterator<Integer> iterator = ll.iterator();
+        while (iterator.hasNext()) {
+            System.out.println(iterator.next());
+        }
     }
 }
