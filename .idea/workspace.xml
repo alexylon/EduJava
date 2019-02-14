@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="57587dbd-72ff-48a7-992f-79282308fe3c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/EduJava/src/me/alexandroff/hackerrank/SockMerchant.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -16,29 +17,53 @@
       <usages-collector id="statistics.lifecycle.project">
         <counts>
           <entry key="project.closed" value="1" />
+          <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.3" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="3" />
+          <entry key="JAVA" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="21" />
+          <entry key="JAVA" value="112" />
+          <entry key="PLAIN_TEXT" value="4" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/EduJava/src/me/alexandroff/interview/SortingStrings.java">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/EduJava/src/me/alexandroff/hackerrank/MigratoryBirds.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
+            <state relative-caret-position="266">
+              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/EduJava/src/me/alexandroff/hackerrank/SockMerchant.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="12" column="26" lean-forward="true" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
+              <folding>
+                <element signature="e#198#199#0" expanded="true" />
+                <element signature="e#222#223#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/EduJava/src/me/alexandroff/hackerrank/MigratoryBirds2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -75,6 +100,7 @@
         <option value="$PROJECT_DIR$/EduJava/src/me/alexandroff/oca/simulator/A1.java" />
         <option value="$PROJECT_DIR$/EduJava/src/me/alexandroff/oca/simulator/Test21.java" />
         <option value="$PROJECT_DIR$/EduJava/src/me/alexandroff/interview/SortingStrings.java" />
+        <option value="$PROJECT_DIR$/EduJava/src/me/alexandroff/hackerrank/SockMerchant.java" />
       </list>
     </option>
   </component>
@@ -115,6 +141,28 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="alexandroff" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="EduJava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EduJava" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="alexandroff" type="462c0819:PsiDirectoryNode" />
+              <item name="hackerrank" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EduJava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EduJava" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="alexandroff" type="462c0819:PsiDirectoryNode" />
+              <item name="interview" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EduJava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EduJava" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="alexandroff" type="462c0819:PsiDirectoryNode" />
+              <item name="interview" type="462c0819:PsiDirectoryNode" />
+              <item name="algorithms" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -126,12 +174,150 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549018321558" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550140699664" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
+    <UpdatedFiles>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Updated from server" />
+        <option name="myStatusName" value="Changed on server" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="CHANGED_ON_SERVER" />
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Updated" />
+          <option name="myStatusName" value="Changed" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="UPDATED" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Created" />
+          <option name="myStatusName" value="Created" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="CREATED" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/EduJava/src/me/alexandroff/interview/AssertTest.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/EduJava/src/me/alexandroff/interview/algorithms/BirthdayChocolate.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/EduJava/src/me/alexandroff/interview/algorithms/BonAppetit.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/EduJava/src/me/alexandroff/interview/algorithms/DayOfProgrammer.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/EduJava/src/me/alexandroff/interview/algorithms/DivisibleSumPairsNumber.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/EduJava/src/me/alexandroff/interview/algorithms/Factorial.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/EduJava/src/me/alexandroff/interview/algorithms/Fibonacci.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/EduJava/src/me/alexandroff/interview/algorithms/FizzBuzz.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/EduJava/src/me/alexandroff/interview/algorithms/MigratoryBirds.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/EduJava/src/me/alexandroff/interview/algorithms/MigratoryBirds2.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/EduJava/src/me/alexandroff/interview/algorithms/PickingNumbers.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/EduJava/src/me/alexandroff/interview/jcf/HashMapTest.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/EduJava/src/me/alexandroff/interview/jcf/HashSetTest.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/EduJava/src/me/alexandroff/interview/jcf/LinkedListTest.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/EduJava/src/me/alexandroff/interview/jcf/PriorityQueueTest.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/EduJava/src/me/alexandroff/interview/jcf/TreeSetTest.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/EduJava/src/me/alexandroff/interview/search/BinarySearch.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/EduJava/src/me/alexandroff/interview/search/MySearch1.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/EduJava/src/me/alexandroff/interview/search/MySearch2.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/EduJava/src/me/alexandroff/interview/sort/ArraysSort.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/EduJava/src/me/alexandroff/interview/sort/BubbleSort.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/EduJava/src/me/alexandroff/interview/sort/CollectionsSort.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/EduJava/src/me/alexandroff/interview/sort/Comparable1.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/EduJava/src/me/alexandroff/interview/sort/ComparableMy.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/EduJava/src/me/alexandroff/interview/sort/Comparator1.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/EduJava/src/me/alexandroff/interview/sort/ComparatorMy.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/EduJava/src/me/alexandroff/interview/sort/InsertSort.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/EduJava/src/me/alexandroff/interview/sort/QuickSort.java</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Deleted" />
+          <option name="myStatusName" value="Deleted" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="true" />
+          <option name="myId" value="REMOVED_FROM_REPOSITORY" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/EduJava/src/me/alexandroff/interview/SortingStrings.java</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Restored" />
+          <option name="myStatusName" value="Will be restored" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="RESTORED" />
+        </FILE-GROUP>
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Modified" />
+        <option name="myStatusName" value="Modified" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MODIFIED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Skipped" />
+        <option name="myStatusName" value="Skipped" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SKIPPED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with conflicts" />
+        <option name="myStatusName" value="Will be merged with conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_CONFLICTS" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with tree conflicts" />
+        <option name="myStatusName" value="Merged with tree conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with property conflicts" />
+        <option name="myStatusName" value="Will be merged with property conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged" />
+        <option name="myStatusName" value="Will be merged" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Not in repository" />
+        <option name="myStatusName" value="Not in repository" />
+        <option name="mySupportsDeletion" value="true" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="UNKNOWN" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally added" />
+        <option name="myStatusName" value="Locally added" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_ADDED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally removed" />
+        <option name="myStatusName" value="Locally removed" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_REMOVED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Switched" />
+        <option name="myStatusName" value="Switched" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SWITCHED" />
+      </FILE-GROUP>
+    </UpdatedFiles>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -228,6 +414,7 @@
       <workItem from="1546781512123" duration="296000" />
       <workItem from="1546792337055" duration="4538000" />
       <workItem from="1546946450730" duration="312000" />
+      <workItem from="1550140466872" duration="916000" />
     </task>
     <task id="LOCAL-00001" summary="MacBook">
       <created>1542483796296</created>
@@ -306,17 +493,24 @@
       <option name="project" value="LOCAL" />
       <updated>1549018332735</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="KAME">
+      <created>1550140543460</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1550140543460</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11725000" />
+    <option name="totallyTimeSpent" value="12641000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1097" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.31629702" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.32208294" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -356,7 +550,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="MacBook" />
     <MESSAGE value="Mac Mini" />
-    <option name="LAST_COMMIT_MESSAGE" value="Mac Mini" />
+    <MESSAGE value="KAME" />
+    <option name="LAST_COMMIT_MESSAGE" value="KAME" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/EduJava/src/me/alexandroff/oca/simulator/Test15" />
@@ -385,17 +580,71 @@
     <entry file="file://$PROJECT_DIR$/EduJava/src/me/alexandroff/oca/simulator/ExceptionCatches.java" />
     <entry file="file://$PROJECT_DIR$/EduJava/src/me/alexandroff/oca/simulator/A1.java" />
     <entry file="file://$PROJECT_DIR$/EduJava/src/me/alexandroff/oca/simulator/Test21.java" />
-    <entry file="file://$PROJECT_DIR$/EduJava/src/me/alexandroff/interview.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/EduJava/src/me/alexandroff/interview.java" />
     <entry file="file://$PROJECT_DIR$/EduJava/src/me/alexandroff/interview/SortingStrings.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
           <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EduJava/src/me/alexandroff/hackerrank/BirthdayChocolate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EduJava/src/me/alexandroff/hackerrank/BonAppetit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EduJava/src/me/alexandroff/hackerrank/DayOfProgrammer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EduJava/src/me/alexandroff/hackerrank/DivisibleSumPairsNumber.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EduJava/src/me/alexandroff/hackerrank/PickingNumbers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EduJava/src/me/alexandroff/hackerrank/MigratoryBirds2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EduJava/src/me/alexandroff/hackerrank/MigratoryBirds.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EduJava/src/me/alexandroff/hackerrank/SockMerchant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="26" lean-forward="true" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
+          <folding>
+            <element signature="e#198#199#0" expanded="true" />
+            <element signature="e#222#223#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
