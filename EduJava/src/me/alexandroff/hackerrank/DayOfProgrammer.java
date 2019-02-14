@@ -1,4 +1,4 @@
-package me.alexandroff.interview.algorithms;
+package me.alexandroff.hackerrank;
 
 // The day of the programmer in Russia (256-th)
 

@@ -1,4 +1,4 @@
-package me.alexandroff.interview.algorithms;
+package me.alexandroff.hackerrank;
 
 //Bon Appetit
 

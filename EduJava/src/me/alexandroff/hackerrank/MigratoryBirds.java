@@ -1,4 +1,4 @@
-package me.alexandroff.interview.algorithms;
+package me.alexandroff.hackerrank;
 
 //You have been asked to help study the population of birds
 // migrating across the continent. Each type of bird you are
