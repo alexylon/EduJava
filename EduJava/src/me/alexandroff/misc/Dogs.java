@@ -10,6 +10,5 @@ public class Dogs {
         System.out.println("Zack");
         line2();
         System.out.println("Sharo");
-
     }
 }
