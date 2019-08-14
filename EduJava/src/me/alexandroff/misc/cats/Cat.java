@@ -1,4 +1,5 @@
 package me.alexandroff.misc.cats;
+//Inner anonymous classes
 
 import java.util.Comparator;
 
