@@ -22,7 +22,7 @@ public class Remove_Elements {
 
         myArrList.remove(0); //Removes "Zero"
         myArrList.remove(1); //Removes "Two"
-        myArrList.remove(sb3);
+        myArrList.remove(sb3); //Removes "Three"
         myArrList.remove("Five"); // Doesn't remove "Five"
         myArrList.remove(new StringBuilder("Five")); // Doesn't remove "Five"
 

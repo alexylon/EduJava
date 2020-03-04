@@ -4,7 +4,8 @@ import java.util.*;
 
 //1. Adding nulls: ArrayList supports null elements.
 //2. Adding duplicates: ArrayList supports duplicate elements.
-//3. Exceptions: None of the ArrayList methods throw NullPointerException. They throw IndexOutOfBoundsException if you try to access an element beyond the range of the list.
+//3. Exceptions: None of the ArrayList methods throw NullPointerException.
+// They throw IndexOutOfBoundsException if you try to access an element beyond the range of the list.
 //4. Method chaining: Unlike StringBuilder, none of the ArrayList
 // methods return a reference to the same ArrayList object.
 // Therefore, it is not possible to chain method calls.
