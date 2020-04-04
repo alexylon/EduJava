@@ -7,10 +7,12 @@ import java.util.List;
 class Employee implements Comparable<Employee> {
     String name;
     String position;
+    int age;
 
-    Employee(String name, String position) {
+    Employee(String name, String position, int age) {
         this.name = name;
         this.position = position;
+        this.age = age;
     }
 
     @Override
@@ -25,9 +27,9 @@ class Employee implements Comparable<Employee> {
 
 class EmployeeTest {
     public static void main(String[] args) {
-        Employee e1 = new Employee("Petkan", "driver");
-        Employee e2 = new Employee("Dragan", "cook");
-        Employee e3 = new Employee("Gosho", "cleaner");
+        Employee e1 = new Employee("Petkan", "driver", 40);
+        Employee e2 = new Employee("Dragan", "cook", 30);
+        Employee e3 = new Employee("Gosho", "cleaner", 50);
 
         List<Employee> employees = new ArrayList<>();
         employees.add(e1);
